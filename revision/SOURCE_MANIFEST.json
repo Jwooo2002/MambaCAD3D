@@ -1,0 +1,112 @@
+{
+  "created_utc": "2026-11-07T07:38:41.053955+00:00",
+  "source_root": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan",
+  "source_files": [
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/core/__init__.py",
+      "snapshot": "legacy_source/main_files/core/__init__.py",
+      "sha256": "0cd1c6d7890b535caa80dad40bc2be73952b99aa0c5acd4a0d9ebdf030e03577"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/core/experiment_manager.py",
+      "snapshot": "legacy_source/main_files/core/experiment_manager.py",
+      "sha256": "6bac04cd4242887f76a30437269433a8d4c4dcb56dbb765570af3e25fc7f5185"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/core/fp_based_evaluator.py",
+      "snapshot": "legacy_source/main_files/core/fp_based_evaluator.py",
+      "sha256": "e3221ef87ac8a3cf49e3c3a2e1bdab5262a1e5063b6b5f78a1e50ceba4708531"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/core/model_evaluator.py",
+      "snapshot": "legacy_source/main_files/core/model_evaluator.py",
+      "sha256": "71ffdf7082ce8538c916ae19efd0170f72f137b45ab96e44e2c52b2a364098c7"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/core/model_trainer.py",
+      "snapshot": "legacy_source/main_files/core/model_trainer.py",
+      "sha256": "74b87656c9998827e9e73ae219015e120eb18e1772aab2f2aee70f34ae873e60"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/core/patient_level_evaluator.py",
+      "snapshot": "legacy_source/main_files/core/patient_level_evaluator.py",
+      "sha256": "90f9b07e1fed18fde5dc57289d841913acf693ef6df45feb449153d014ccfa21"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/csms6s.py",
+      "snapshot": "legacy_source/main_files/csms6s.py",
+      "sha256": "b709d303a0b0917d3d1e46acf4b0a5ad01a91ca508d289557b8c87a4432902c5"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/data/VideoDataset.py",
+      "snapshot": "legacy_source/main_files/data/VideoDataset.py",
+      "sha256": "f8e29772680a90de54afff582dd07642903deef3c9d337a6bd9e89d9e6ee3bb3"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/main.py",
+      "snapshot": "legacy_source/main_files/main.py",
+      "sha256": "bf2dcaea2f1cbf1f6dd29e458c70a88a7499fdb0c45bfb16c49cd03281cb5abd"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/model.py",
+      "snapshot": "legacy_source/main_files/model.py",
+      "sha256": "078f78311fe423b3f928edb24e4035065b4582247a88cfb6809d33e46c6bebee"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/__init__.py",
+      "snapshot": "legacy_source/main_files/utils/__init__.py",
+      "sha256": "e68615bdc11b02800c2b335a25a7aba24020405c15e2610900b6fe256c2765c9"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/anomaly_patch_saver.py",
+      "snapshot": "legacy_source/main_files/utils/anomaly_patch_saver.py",
+      "sha256": "5b17cdd5526fd6e3a804615b890d38f4b37a8cef91bf77c91b39d33c23596211"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/config_manager.py",
+      "snapshot": "legacy_source/main_files/utils/config_manager.py",
+      "sha256": "f77948fcd43a01c643041bb9b08e8a1f0457b8cb32005d771042da009bfc01ee"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/extreme_score_visualizer.py",
+      "snapshot": "legacy_source/main_files/utils/extreme_score_visualizer.py",
+      "sha256": "5549d74b146f1c6f612f66f6af1bf95271226adec9a99717ac35f8a402083004"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/report_generator.py",
+      "snapshot": "legacy_source/main_files/utils/report_generator.py",
+      "sha256": "b15adcea69cd0f251118c88c73e55ad377f04db77283522b41615b7cea0d5ea2"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/reproducibility.py",
+      "snapshot": "legacy_source/main_files/utils/reproducibility.py",
+      "sha256": "01c9bb59316f03f9a5c3f6cf23392772f251c7a724d7876d04e3a36964f67674"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/results_saver.py",
+      "snapshot": "legacy_source/main_files/utils/results_saver.py",
+      "sha256": "4ff8486cd267516e158a465fcecd9b86913897db939e6e0a20639d9e0a3a81ef"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/sample_config.py",
+      "snapshot": "legacy_source/main_files/utils/sample_config.py",
+      "sha256": "8cd5476a116f385a2c6d16e8618c6a6ef6e7df5e18b1d1bd3babbf980d425087"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/statistical_analyzer.py",
+      "snapshot": "legacy_source/main_files/utils/statistical_analyzer.py",
+      "sha256": "03bd6e2798be745477451cfe6766cf929dd90c51868acf60f6a1e85b0a84d7d4"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils/visualizer.py",
+      "snapshot": "legacy_source/main_files/utils/visualizer.py",
+      "sha256": "98e69a4399b19f5c93a25d42adc90bb828be82bba2a45b52789added950ad9da"
+    },
+    {
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/utils_scan.py",
+      "snapshot": "legacy_source/main_files/utils_scan.py",
+      "sha256": "70d9b586edb782a241def8ae885cb56e4999c2c426dcbc6a9d640099cbf24f97"
+    }
+  ],
+  "note": "Only source code was copied; original datasets and experiment outputs remain in the source directory."
+}

@@ -1,0 +1,717 @@
+{
+  "schema_version": 1,
+  "source_attachment": "/home/jiwoong/.codex/attachments/75a697aa-35d3-46ab-ae02-3400a2fbf0c5/붙여넣은 텍스트.txt",
+  "last_updated_kst_date": "2026-11-09",
+  "original_extraction_note": "Original requested-comment text is copied as exact substrings; source bullet prefixes/outer whitespace are omitted. Reviewer 1's run-on text is split at its original headings; Reviewer 3 minor comments are split at semicolons, retaining punctuation.",
+  "duplicate_note": "Duplicate relationships are editorial mapping. Partial duplicates share an issue but are not identical instructions. Both sides are retained.",
+  "response_complete_definition": "Experiments, manuscript revision, and point-by-point reply complete for the whole item.",
+  "comments": [
+    {
+      "id": "AE-0",
+      "group": "Associate Editor",
+      "original": "Please address all reviewer and editor comments.",
+      "translation_ko": "모든 리뷰어와 에디터의 코멘트에 대응하라.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "AE-1",
+      "group": "Associate Editor",
+      "original": "Add 95% confidence intervals for AUROC & AP and assess paired differences against baseline models using resampling methods.",
+      "translation_ko": "AUROC와 AP의 95% 신뢰구간을 추가하고, 재표본추출 방법으로 baseline 모델과의 짝지어진 성능 차이를 평가하라.",
+      "duplicates": [
+        {
+          "id": "R2-4",
+          "kind": "중복",
+          "topic": "신뢰구간·통계 검증"
+        },
+        {
+          "id": "R3-1",
+          "kind": "중복",
+          "topic": "신뢰구간·불확실성"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "AE-2",
+      "group": "Associate Editor",
+      "original": "Evaluate training stability across multiple seeds.",
+      "translation_ko": "여러 random seed에서 학습 안정성을 평가하라.",
+      "duplicates": [
+        {
+          "id": "R3-1",
+          "kind": "부분 중복",
+          "topic": "seed·반복 실험"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "AE-3",
+      "group": "Associate Editor",
+      "original": "Discuss how the high proportion of diseased subjects influences AP.",
+      "translation_ko": "질환 환자의 높은 비율이 AP에 미치는 영향을 논의하라.",
+      "duplicates": [
+        {
+          "id": "R3-3",
+          "kind": "중복",
+          "topic": "질환 비율과 AP 해석"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "AE-4",
+      "group": "Associate Editor",
+      "original": "Validate using expert-annotated coronary abnormalities.",
+      "translation_ko": "전문가가 주석을 단 관상동맥 이상 소견을 이용해 검증하라.",
+      "duplicates": [
+        {
+          "id": "R3-5",
+          "kind": "부분 중복",
+          "topic": "병변 주석·병변 단위 검증"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "AE-5",
+      "group": "Associate Editor",
+      "original": "How is anatomical variation vs coronary disease controlled for?",
+      "translation_ko": "해부학적 변이와 관상동맥 질환을 어떻게 구분하고 통제하는지 설명하라.",
+      "duplicates": [
+        {
+          "id": "R1-6",
+          "kind": "부분 중복",
+          "topic": "정상 해부학적 변이·굴곡"
+        },
+        {
+          "id": "R2-9",
+          "kind": "부분 중복",
+          "topic": "해부학적 변이·실패 분석"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "AE-6",
+      "group": "Associate Editor",
+      "original": "Elaborate on potential test-set overfitting.",
+      "translation_ko": "시험 데이터에 대한 과적합 가능성을 자세히 설명하라.",
+      "duplicates": [
+        {
+          "id": "R2-8",
+          "kind": "중복",
+          "topic": "시험 데이터 과적합·모델 선택"
+        },
+        {
+          "id": "R3-2",
+          "kind": "중복",
+          "topic": "시험 데이터 과적합·모델 선택"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "AE-7",
+      "group": "Associate Editor",
+      "original": "For submitting your revised manuscript, please ensure all changes are clearly highlighted in the manuscript and explained in detail in the rebuttal to facilitate the review process.",
+      "translation_ko": "재제출 시 모든 변경을 원고에 명확히 표시하고, 검토를 돕도록 답변서에서 자세히 설명하라.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "R1-1",
+      "group": "Reviewer 1",
+      "original": "Dataset Size: The 40-subject dataset is small. Test on a larger, external dataset to prove it works reliably across different scanners.",
+      "translation_ko": "데이터 크기: 40명은 작은 규모다. 더 큰 외부 데이터로 시험해 서로 다른 스캐너에서도 안정적으로 작동함을 입증하라.",
+      "duplicates": [
+        {
+          "id": "R2-2",
+          "kind": "중복",
+          "topic": "외부 CTCA 검증"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R1-2",
+      "group": "Reviewer 1",
+      "original": "Centerline Reliance: Briefly explain what happens to the anomaly scores if the initial centerline extraction is inaccurate.",
+      "translation_ko": "중심선 의존성: 초기 중심선 추출이 부정확할 때 이상 점수가 어떻게 달라지는지 간단히 설명하라.",
+      "duplicates": [
+        {
+          "id": "R2-9",
+          "kind": "부분 중복",
+          "topic": "중심선·단면 오류"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R1-3",
+      "group": "Reviewer 1",
+      "original": "Max-Pooling Vulnerability: Using a single max-pooling score makes the system vulnerable to isolated noise. Consider averaging the top-$k$ scores instead.",
+      "translation_ko": "최댓값 집계의 취약성: 단일 최댓값 점수는 고립된 잡음에 취약하다. 상위 k개 점수의 평균을 고려하라.",
+      "duplicates": [
+        {
+          "id": "R2-5",
+          "kind": "중복",
+          "topic": "max 대비 top-k 등 집계 비교"
+        },
+        {
+          "id": "R3-6",
+          "kind": "중복",
+          "topic": "max 이외 집계 비교"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R1-4",
+      "group": "Reviewer 1",
+      "original": "Clinical Metrics: Add Sensitivity, Specificity, and F1-score. Doctors look for these alongside AUROC/AP.",
+      "translation_ko": "임상 지표: 민감도, 특이도, F1-score를 추가하라. 임상의는 AUROC/AP와 함께 이 지표를 확인한다.",
+      "duplicates": [
+        {
+          "id": "R3-3",
+          "kind": "부분 중복",
+          "topic": "민감도·특이도"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R1-5",
+      "group": "Reviewer 1",
+      "original": "Branch Points: Propose a quick algorithmic fix (like branch masking) for when normal branch vessels are accidentally flagged as lesions.",
+      "translation_ko": "분지점: 정상 분지 혈관이 병변으로 잘못 표시될 때 사용할 간단한 알고리즘 보정책(예: 분지 마스킹)을 제안하라.",
+      "duplicates": [
+        {
+          "id": "R2-9",
+          "kind": "부분 중복",
+          "topic": "정상 분지 오탐"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R1-6",
+      "group": "Reviewer 1",
+      "original": "Geometric Distortion: Discuss if flattening naturally curved arteries artificially increases error scores in healthy but twisted vessels.",
+      "translation_ko": "기하학적 왜곡: 자연스럽게 휘어진 동맥을 펴는 과정이 건강하지만 굴곡진 혈관의 오류 점수를 인위적으로 높이는지 논의하라.",
+      "duplicates": [
+        {
+          "id": "AE-5",
+          "kind": "부분 중복",
+          "topic": "정상 해부학적 변이·굴곡"
+        },
+        {
+          "id": "R2-9",
+          "kind": "부분 중복",
+          "topic": "혈관 선형화의 왜곡"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R1-7",
+      "group": "Reviewer 1",
+      "original": "Inference Time: List the actual processing time in seconds per patient, not just the parameter counts, to prove real-world speed.",
+      "translation_ko": "추론 시간: 실제 활용 속도를 보여주도록 파라미터 수뿐 아니라 환자당 실제 처리 시간을 초 단위로 제시하라.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "R2-1",
+      "group": "Reviewer 2",
+      "original": "Novelty over the preliminary work (Page 2, Introduction): The authors state that this study extends their earlier 3D VAE work [21]. The manuscript should more clearly distinguish the present contribution from [21], particularly what is genuinely new beyond replacing the CNN encoder with Mamba and adding CoroSpiral Scan. A short comparison with the preliminary version would be helpful.",
+      "translation_ko": "예비 연구 대비 독창성(2쪽, 서론): 이전 3D VAE 연구 [21]의 확장이라고 했으므로, CNN 인코더를 Mamba로 바꾸고 CoroSpiral Scan을 추가한 것 외에 무엇이 새 기여인지 더 명확히 구분하라. 예비 연구와의 짧은 비교가 도움이 된다.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "R2-2",
+      "group": "Reviewer 2",
+      "original": "Dataset size and generalizability (Page 5, Section IV-A): The experimental dataset contains only 40 subjects, with training performed on 15 normal subjects and testing on 5 normal and 20 diseased subjects. This is quite limited for drawing conclusions about clinical robustness. The authors should acknowledge this more clearly and, if possible, validate the method on an additional CTCA dataset.",
+      "translation_ko": "데이터 규모와 일반화(5쪽, IV-A절): 총 40명 중 정상 15명으로 학습하고 정상 5명·질환 20명으로 시험한 규모는 임상적 견고성을 결론내리기에 매우 제한적이다. 이를 더 명확히 인정하고, 가능하면 추가 CTCA 데이터로 검증하라.",
+      "duplicates": [
+        {
+          "id": "R1-1",
+          "kind": "중복",
+          "topic": "외부 CTCA 검증"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-3",
+      "group": "Reviewer 2",
+      "original": "Single train-test split (Page 5, Section IV-A): It appears that the reported results are based on one fixed subject split. With such a small cohort, performance may depend considerably on the selected five normal test subjects. Subject-level cross-validation or repeated splits would provide a more reliable estimate of performance.",
+      "translation_ko": "단일 학습·시험 분할(5쪽, IV-A절): 하나의 고정된 환자 분할로 결과를 보고한 것으로 보인다. 작은 코호트에서는 선택된 정상 시험 환자 5명에 따라 성능이 크게 달라질 수 있으므로, 환자 단위 교차검증 또는 반복 분할로 더 신뢰할 만한 성능을 추정하라.",
+      "duplicates": [
+        {
+          "id": "R3-1",
+          "kind": "중복",
+          "topic": "환자 단위 CV·반복 분할"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-4",
+      "group": "Reviewer 2",
+      "original": "Statistical reliability of the reported improvement (Page 6, Table II): The proposed method reports AUROC = 0.860 and AP = 0.980, but no confidence intervals or statistical significance tests are given. Given the small test cohort, confidence intervals or bootstrap analysis should be provided before concluding that the improvement over competing methods is significant.",
+      "translation_ko": "성능 향상의 통계적 신뢰성(6쪽, 표 II): AUROC 0.860과 AP 0.980을 보고했지만 신뢰구간이나 통계적 유의성 검정이 없다. 시험 코호트가 작으므로 경쟁 방법보다 유의하게 좋다고 결론내리기 전에 신뢰구간 또는 bootstrap 분석을 제시하라.",
+      "duplicates": [
+        {
+          "id": "AE-1",
+          "kind": "중복",
+          "topic": "신뢰구간·통계 검증"
+        },
+        {
+          "id": "R3-1",
+          "kind": "중복",
+          "topic": "작은 코호트의 통계적 불확실성"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-5",
+      "group": "Reviewer 2",
+      "original": "Patient-level max pooling needs stronger justification (Page 4, Section III-B): The patient score is simply the maximum reconstruction error among all patches. This strategy may be sensitive to a single noisy or incorrectly extracted patch. The authors should compare max pooling with alternatives such as mean, top-k averaging, percentile-based aggregation, or learned aggregation.",
+      "translation_ko": "환자 단위 max pooling의 근거(4쪽, III-B절): 모든 패치 중 최대 재구성 오류를 환자 점수로 쓰면 잡음이 있거나 잘못 추출된 단일 패치에 민감할 수 있다. 평균, top-k 평균, percentile 기반 집계 또는 학습형 집계와 비교하라.",
+      "duplicates": [
+        {
+          "id": "R1-3",
+          "kind": "중복",
+          "topic": "max 대비 top-k 등 집계 비교"
+        },
+        {
+          "id": "R3-6",
+          "kind": "중복",
+          "topic": "평균·top-k 집계 비교"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-6",
+      "group": "Reviewer 2",
+      "original": "Fairness of baseline comparison (Page 6, Section IV-D): Several competing methods were originally designed for 2D anomaly detection, while MambaCAD-3D directly exploits 3D vessel information. Although the authors attempt to construct comparable inputs, further details on baseline implementation and hyperparameter optimization are needed to ensure that all methods received comparable tuning.",
+      "translation_ko": "Baseline 비교의 공정성(6쪽, IV-D절): 일부 비교 방법은 원래 2D 이상 탐지용인 반면 제안 방법은 3D 혈관 정보를 직접 이용한다. 입력을 맞추려 한 점은 있으나, 모든 방법에 비슷한 튜닝을 적용했는지 판단할 수 있도록 baseline 구현과 하이퍼파라미터 최적화 과정을 더 자세히 설명하라.",
+      "duplicates": [
+        {
+          "id": "R3-6",
+          "kind": "부분 중복",
+          "topic": "공정한 baseline 비교·구현"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-7",
+      "group": "Reviewer 2",
+      "original": "CoroSpiral Scan contribution (Pages 5–7, Section III-D and Table IV): CoroSpiral Scan appears to be the most interesting contribution, and Table IV shows a considerable AUROC improvement over alternative scan paths. However, the manuscript mainly attributes this improvement to preserved spatial adjacency. A quantitative measure of spatial/token continuity for the different scan paths would provide stronger evidence for this explanation.",
+      "translation_ko": "CoroSpiral Scan의 기여(5–7쪽, III-D절·표 IV): 가장 흥미로운 기여로 보이며 다른 scan보다 상당한 AUROC 향상이 있지만, 원고는 주로 공간적 인접성 보존으로 설명한다. 각 scan 경로의 공간·토큰 연속성을 정량화해 이 설명의 근거를 보강하라.",
+      "duplicates": [
+        {
+          "id": "R3-4",
+          "kind": "부분 중복",
+          "topic": "scan 기여의 근거·비교"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-8",
+      "group": "Reviewer 2",
+      "original": "Hyperparameter selection may introduce test-set optimization (Page 7, Section IV-E): The authors compare several values of d_state, numbers of VSS blocks, and patch depths and report the best configuration. It is unclear whether these choices were made using the same test subjects used for final reporting. A separate validation set or nested selection procedure should be described to avoid optimistic performance estimates.",
+      "translation_ko": "하이퍼파라미터 선택과 시험 데이터 최적화(7쪽, IV-E절): d_state, VSS block 수, patch depth를 비교해 최적 구성을 보고했는데, 최종 보고에 쓴 시험 환자로 이 값을 골랐는지 불명확하다. 낙관적 성능 추정을 피하도록 별도 validation 또는 중첩 선택 절차를 설명하라.",
+      "duplicates": [
+        {
+          "id": "AE-6",
+          "kind": "중복",
+          "topic": "시험 데이터 과적합·모델 선택"
+        },
+        {
+          "id": "R3-2",
+          "kind": "중복",
+          "topic": "별도 validation·모델 선택"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-9",
+      "group": "Reviewer 2",
+      "original": "Failure cases deserve more attention (Page 8, Fig. 8): The authors correctly identify errors caused by inaccurate cross-sections, branch points, and geometric distortion introduced by vessel linearization. These are clinically relevant limitations and should be discussed more explicitly, including how frequently such failures occur rather than showing only representative examples.",
+      "translation_ko": "실패 사례(8쪽, 그림 8): 부정확한 단면, 분지점, 혈관 선형화의 기하학적 왜곡에 따른 오류는 임상적으로 중요한 한계다. 대표 사례만 보여주는 데 그치지 말고 발생 빈도를 포함해 더 명시적으로 논의하라.",
+      "duplicates": [
+        {
+          "id": "AE-5",
+          "kind": "부분 중복",
+          "topic": "해부학적 변이·실패 분석"
+        },
+        {
+          "id": "R1-2",
+          "kind": "부분 중복",
+          "topic": "중심선·단면 오류"
+        },
+        {
+          "id": "R1-5",
+          "kind": "부분 중복",
+          "topic": "정상 분지 오탐"
+        },
+        {
+          "id": "R1-6",
+          "kind": "부분 중복",
+          "topic": "혈관 선형화의 왜곡"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-10",
+      "group": "Reviewer 2",
+      "original": "References and related work (Pages 2–3, Section II): The Related Work section covers Mamba-based medical imaging reasonably well, including recent 2024–2025 studies. However, the discussion of recent 3D medical anomaly detection and CTCA-specific weakly/unsupervised learning could be strengthened. This would help position MambaCAD-3D against methods closer to the actual clinical task rather than mainly general anomaly-detection baselines.",
+      "translation_ko": "참고문헌과 관련 연구(2–3쪽, II절): 2024–2025년 연구를 포함해 Mamba 의료영상 연구는 비교적 잘 다뤘지만, 최근 3D 의료 이상 탐지와 CTCA 특화 약지도·비지도 학습 논의를 강화하라. 일반 이상 탐지 baseline뿐 아니라 실제 임상 과제에 가까운 방법들과의 관계를 분명히 하라.",
+      "duplicates": [
+        {
+          "id": "R3-4",
+          "kind": "부분 중복",
+          "topic": "관련 scan 연구와의 차별화"
+        },
+        {
+          "id": "R3-6",
+          "kind": "부분 중복",
+          "topic": "가까운 3D·Mamba UAD 방법 보강"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R2-11",
+      "group": "Reviewer 2",
+      "original": "English and presentation (throughout): The manuscript is generally readable but requires proofreading for grammar, capitalization, and consistency. For example, the Fig. 3 caption labels the scan strategies as “(a), (b), (b-c), (d),” which appears incorrect. Terms such as CoroSpiral Scan, linear volume patch/processing, patient-level anomaly detection, and CTCA/CCTA should also be checked for consistent usage throughout.",
+      "translation_ko": "영문과 표현(전반): 전반적으로 읽기 쉽지만 문법, 대소문자, 표기 일관성을 교정해야 한다. 그림 3의 “(a), (b), (b-c), (d)” 표기는 잘못된 것으로 보인다. CoroSpiral Scan, linear volume patch/processing, patient-level anomaly detection, CTCA/CCTA의 용어도 원고 전체에서 일관되게 사용하라.",
+      "duplicates": [
+        {
+          "id": "R3-5",
+          "kind": "부분 중복",
+          "topic": "용어·표현의 정확성"
+        },
+        {
+          "id": "R3-m1",
+          "kind": "중복",
+          "topic": "그림 3의 (b-c) 표기"
+        },
+        {
+          "id": "R3-m2",
+          "kind": "부분 중복",
+          "topic": "영문 교정·오탈자"
+        },
+        {
+          "id": "R3-m7",
+          "kind": "부분 중복",
+          "topic": "그림 표기 교정"
+        },
+        {
+          "id": "R3-m8",
+          "kind": "부분 중복",
+          "topic": "표현·구두점 일관성"
+        },
+        {
+          "id": "R3-m9",
+          "kind": "부분 중복",
+          "topic": "약어·대소문자 일관성"
+        },
+        {
+          "id": "R3-m10",
+          "kind": "부분 중복",
+          "topic": "영문 교정·오탈자"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-1",
+      "group": "Reviewer 3 — Major concerns",
+      "original": "Test set too small; no uncertainty. AUROC rests on 25 subjects, only 5 normal, so a single normal subject can shift it by up to 0.20; no CIs, seeds or repeated splits are reported, and most ablation differences (e.g., 0.760 vs. 0.770) are within noise. Run 4-fold CV over the 20 normal subjects and report mean ± SD plus per-subject scores.",
+      "translation_ko": "시험 규모와 불확실성: AUROC는 정상 5명을 포함한 총 25명에 근거하므로 정상 환자 한 명이 최대 0.20만큼 영향을 줄 수 있다. CI, seed별 결과, 반복 분할이 없고 0.760 대 0.770 같은 절제실험 차이는 잡음 범위일 수 있다. 정상 20명에 대해 4-fold CV를 수행하고 평균 ± SD와 환자별 점수를 보고하라.",
+      "duplicates": [
+        {
+          "id": "AE-1",
+          "kind": "중복",
+          "topic": "신뢰구간·불확실성"
+        },
+        {
+          "id": "AE-2",
+          "kind": "부분 중복",
+          "topic": "seed·반복 실험"
+        },
+        {
+          "id": "R2-3",
+          "kind": "중복",
+          "topic": "환자 단위 CV·반복 분할"
+        },
+        {
+          "id": "R2-4",
+          "kind": "중복",
+          "topic": "작은 코호트의 통계적 불확실성"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-2",
+      "group": "Reviewer 3 — Major concerns",
+      "original": "Model selection on the test set. No validation set is described; d_state, block count and patch length are the test-set optima (Tables V–VI, Fig. 7), λ is unspecified, and the early-stopping criterion is unstated.",
+      "translation_ko": "시험 데이터에서의 모델 선택: validation 구성이 설명되지 않았고 d_state, block 수, patch 길이가 시험 데이터의 최적값으로 제시되어 있다(표 V–VI, 그림 7). λ와 early stopping 기준도 명시되지 않았다.",
+      "duplicates": [
+        {
+          "id": "AE-6",
+          "kind": "중복",
+          "topic": "시험 데이터 과적합·모델 선택"
+        },
+        {
+          "id": "R2-8",
+          "kind": "중복",
+          "topic": "별도 validation·모델 선택"
+        },
+        {
+          "id": "R3-6",
+          "kind": "중복",
+          "topic": "λ 등 재현성 설정"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-3",
+      "group": "Reviewer 3 — Major concerns",
+      "original": "AP is misread and partly inconsistent. At 80% prevalence a random ranking gives AP ≈ 0.80 (hence CutPaste's 0.82 at AUROC 0.51), so AP is not \"more robust to imbalance\". With 20/5 subjects, AUROC 0.77 cannot coexist with AP 0.72 (minimum ≈ 0.86), and AUROC 0.86 caps AP near 0.97, not 0.98. State how AP is computed, verify Tables II–III, and add sensitivity/specificity.",
+      "translation_ko": "AP 해석과 수치 불일치: 질환 비율이 80%이면 무작위 순위의 AP도 약 0.80이다(CutPaste: AUROC 0.51, AP 0.82). 따라서 AP가 “불균형에 더 견고하다”고 해석하면 안 된다. 질환 20명·정상 5명에서 AUROC 0.77과 AP 0.72는 양립할 수 없고 최소 AP는 약 0.86이며, AUROC 0.86의 AP 상한은 약 0.97로 0.98이 아니다. AP 계산법을 명시하고 표 II–III를 확인하며 민감도·특이도를 추가하라.",
+      "duplicates": [
+        {
+          "id": "AE-3",
+          "kind": "중복",
+          "topic": "질환 비율과 AP 해석"
+        },
+        {
+          "id": "R1-4",
+          "kind": "부분 중복",
+          "topic": "민감도·특이도"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-4",
+      "group": "Reviewer 3 — Major concerns",
+      "original": "Ablations contradict the narrative. LVP + VSS without CoroSpiral (Table III, 0.770) equals the plain 2D MemAE baseline, and every alternative scan (Table IV) is at or below it: the whole AUROC gain comes from the scan. Rewrite Sec. IV-E incrementally, state which scan the no-CSS rows use, explain why the SSM helps only with CoroSpiral, compare against a Hilbert-curve ordering [42], and position the work relative to Serp-Mamba, whose serpentine scan already follows curved vessel structures in 2D retinal images.",
+      "translation_ko": "절제실험과 설명의 불일치: CoroSpiral 없는 LVP + VSS의 AUROC 0.770은 2D MemAE와 같고 다른 scan은 모두 그 이하이므로 AUROC 향상 전체가 scan에서 나온다. IV-E절을 구성 요소의 점진적 추가 방식으로 다시 쓰고, CSS가 없는 행의 scan을 명시하며, SSM이 CoroSpiral과 결합될 때만 도움이 되는 이유를 설명하라. Hilbert-curve ordering [42]과 비교하고, 2D 망막의 굴곡진 혈관을 이미 따라가는 serpentine scan을 사용한 Serp-Mamba와의 관계를 정리하라.",
+      "duplicates": [
+        {
+          "id": "R2-7",
+          "kind": "부분 중복",
+          "topic": "scan 기여의 근거·비교"
+        },
+        {
+          "id": "R2-10",
+          "kind": "부분 중복",
+          "topic": "관련 scan 연구와의 차별화"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-5",
+      "group": "Reviewer 3 — Major concerns",
+      "original": "Incorrect terminology and overstated claims. There is no variational component, so \"VAE\" should read \"autoencoder\" throughout; RD4AD is reverse distillation, not \"reconstruction-based denoising\"; [41] is a four-direction Cross-Scan, not bidirectional. The \"18% improvement over the previous best method\" is wrong — the best baseline by AUROC is 2D MemAE (0.77), i.e., +0.09 absolute. Lesion-level claims (Figs. 4–5) cannot be verified without annotations, and the \"long-range dependencies along the coronary tree\" motivation does not match a model that sees one 8×8×64 patch and max-pools.",
+      "translation_ko": "잘못된 용어와 과장된 주장: 변분 요소가 없으므로 VAE를 autoencoder로 고쳐라. RD4AD는 reconstruction-based denoising이 아니라 reverse distillation이며, [41]은 양방향이 아니라 4방향 Cross-Scan이다. “이전 최고 방법 대비 18% 향상”은 잘못됐고, 최고 baseline AUROC 0.77 대비 +0.09 절대 차이다. 그림 4–5의 병변 단위 주장은 주석 없이 확인할 수 없고, 8×8×64 패치 하나를 보고 max pooling하는 모델은 관상동맥 트리 전체의 장거리 의존성이라는 동기와 맞지 않는다.",
+      "duplicates": [
+        {
+          "id": "AE-4",
+          "kind": "부분 중복",
+          "topic": "병변 주석·병변 단위 검증"
+        },
+        {
+          "id": "R2-11",
+          "kind": "부분 중복",
+          "topic": "용어·표현의 정확성"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-6",
+      "group": "Reviewer 3 — Major concerns",
+      "original": "Baselines and reproducibility. 2D baselines process 8×8 crops upsampled to 224/256 for ImageNet backbones (CutPaste at 0.51 signals failure); add a 3D CNN/Transformer AE on the same inputs and the Mamba-based UAD methods cited [24], [53]. Unspecified: tokenization and scan definition after downsampling, λ, memory details, seeds, held-out subject IDs, physical patch length, and alternatives to max aggregation (mean, top-k). Justify the HU window [−300, 400] (saturates calcium and lumen) and the 2.4–3.2 mm cross-section, explain why patch counts are a third of [21]'s, and release code.",
+      "translation_ko": "Baseline과 재현성: 2D baseline은 8×8 crop을 224/256으로 확대해 ImageNet backbone에 넣으며 CutPaste 0.51은 실패를 시사한다. 동일 입력의 3D CNN/Transformer AE와 인용된 Mamba UAD 방법 [24], [53]을 추가하라. Downsampling 후 tokenization·scan 정의, λ, 메모리 세부 설정, seed, held-out 환자 ID, 물리적 patch 길이, max 이외의 평균·top-k 집계가 불명확하다. 석회화와 내강을 포화시키는 HU [−300,400]과 2.4–3.2 mm 단면 범위의 근거를 제시하고, patch 수가 [21]의 3분의 1인 이유를 설명하며 코드를 공개하라.",
+      "duplicates": [
+        {
+          "id": "R1-3",
+          "kind": "중복",
+          "topic": "max 이외 집계 비교"
+        },
+        {
+          "id": "R2-5",
+          "kind": "중복",
+          "topic": "평균·top-k 집계 비교"
+        },
+        {
+          "id": "R2-6",
+          "kind": "부분 중복",
+          "topic": "공정한 baseline 비교·구현"
+        },
+        {
+          "id": "R2-10",
+          "kind": "부분 중복",
+          "topic": "가까운 3D·Mamba UAD 방법 보강"
+        },
+        {
+          "id": "R3-2",
+          "kind": "중복",
+          "topic": "λ 등 재현성 설정"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m1",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "Fig. 3 \"(b-c)\" → \"(c)\";",
+      "translation_ko": "그림 3의 “(b-c)”를 “(c)”로 수정하라.",
+      "duplicates": [
+        {
+          "id": "R2-11",
+          "kind": "중복",
+          "topic": "그림 3의 (b-c) 표기"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m2",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "Fig. 2 \"Anoamly\";",
+      "translation_ko": "그림 2의 “Anoamly” 오탈자를 수정하라.",
+      "duplicates": [
+        {
+          "id": "R2-11",
+          "kind": "부분 중복",
+          "topic": "영문 교정·오탈자"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m3",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "R³ used for volumes in Sec. III-A;",
+      "translation_ko": "III-A절에서 볼륨을 R³로 표기한 부분을 확인하라.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m4",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "Eqs. (6)–(8) leave operators undefined;",
+      "translation_ko": "식 (6)–(8)의 정의되지 않은 연산자를 설명하라.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m5",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "34.61 vs. 34.609 GFLOPs;",
+      "translation_ko": "34.61과 34.609 GFLOPs 표기를 일치시켜라.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m6",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "identical 1.59M parameters for 2D and 3D MemAE;",
+      "translation_ko": "2D와 3D MemAE의 파라미터 수를 동일한 1.59M으로 보고한 부분을 확인하라.",
+      "duplicates": [],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m7",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "Fig. 7 axis labels;",
+      "translation_ko": "그림 7의 축 라벨을 확인·수정하라.",
+      "duplicates": [
+        {
+          "id": "R2-11",
+          "kind": "부분 중복",
+          "topic": "그림 표기 교정"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m8",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "inconsistent paragraph-heading punctuation;",
+      "translation_ko": "문단 소제목의 구두점 표기를 통일하라.",
+      "duplicates": [
+        {
+          "id": "R2-11",
+          "kind": "부분 중복",
+          "topic": "표현·구두점 일관성"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m9",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "lower-cased acronyms in references;",
+      "translation_ko": "참고문헌에서 소문자로 된 약어의 표기를 수정하라.",
+      "duplicates": [
+        {
+          "id": "R2-11",
+          "kind": "부분 중복",
+          "topic": "약어·대소문자 일관성"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m10",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "\"onventional\" in the supplement;",
+      "translation_ko": "보충자료의 “onventional” 오탈자를 수정하라.",
+      "duplicates": [
+        {
+          "id": "R2-11",
+          "kind": "부분 중복",
+          "topic": "영문 교정·오탈자"
+        }
+      ],
+      "response_complete": false
+    },
+    {
+      "id": "R3-m11",
+      "group": "Reviewer 3 — Minor comments",
+      "original": "consider \"Detection\" rather than \"Diagnosis\" in the title.",
+      "translation_ko": "제목에서 “Diagnosis” 대신 “Detection”을 사용하는 것을 고려하라.",
+      "duplicates": [],
+      "response_complete": false
+    }
+  ],
+  "source_attachment_sha256": "f9f2ad311b692bd5be28917e6effb4767c7f335ac1fbbf4a3a12818b3e564ee0",
+  "verification": {
+    "exact_original_substrings": 43,
+    "korean_translation_blocks": 43,
+    "one_level_nested_gray_translation_blocks": 43,
+    "duplicate_references_symmetric": true,
+    "notion_archive_preserved": true,
+    "checked_kst_date": "2026-11-09"
+  }
+}

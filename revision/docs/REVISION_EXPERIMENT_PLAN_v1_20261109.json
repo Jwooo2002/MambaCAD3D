@@ -1,0 +1,157 @@
+{
+  "as_of_kst_date": "2026-11-09",
+  "status": "proposed_not_run",
+  "notion_page_id": "411d3350-0b3d-81da-a5a7-de7fabd0e09b",
+  "notion_toggle_title": "추가할 점 · 모델 개선 실험 조합",
+  "placement": "appended_native_toggle_on_existing_page",
+  "independent_reviews": [
+    "independent_architecture",
+    "independent_anomaly",
+    "independent_reviewer"
+  ],
+  "decisions": {
+    "patient_sampling": "excluded_by_user",
+    "test_patch_subsampling": "excluded",
+    "cosine_lookup": "deferred_not_in_primary_matrix",
+    "historical_training": "separate_from_revision_comparisons"
+  },
+  "common_conditions": {
+    "resize_kernel": 2,
+    "parameter_count": 1720121,
+    "dims": [
+      32,
+      64,
+      128
+    ],
+    "depths": [
+      2,
+      2,
+      2
+    ],
+    "ssm_d_state": 8,
+    "memory_slots": 300,
+    "scan": "CoroSpiral bidirectional",
+    "addressing": "dot_product",
+    "preprocessing": "ordered_mm_v2",
+    "correct_grouped_ssm": true,
+    "correct_memory_entropy": true,
+    "independent_normal_validation": true,
+    "primary_aggregation": "max",
+    "secondary_aggregations": [
+      "mean",
+      "top_5",
+      "percentile_95"
+    ]
+  },
+  "combinations": [
+    {
+      "id": "A",
+      "phase": 1,
+      "dt_initialization": "existing",
+      "entropy_weight": 0.0002,
+      "shrink_threshold": 0.0025
+    },
+    {
+      "id": "B",
+      "phase": 1,
+      "dt_initialization": "explicit_mamba",
+      "entropy_weight": 0.0002,
+      "shrink_threshold": 0.0025
+    },
+    {
+      "id": "C",
+      "phase": 1,
+      "dt_initialization": "existing",
+      "entropy_weight": 0.0006826666666666667,
+      "shrink_threshold": 0.0025
+    },
+    {
+      "id": "D",
+      "phase": 1,
+      "dt_initialization": "explicit_mamba",
+      "entropy_weight": 0.0006826666666666667,
+      "shrink_threshold": 0.0025
+    },
+    {
+      "id": "E",
+      "phase": 2,
+      "dt_initialization": "existing",
+      "entropy_weight": 0.0002,
+      "shrink_threshold": 0
+    },
+    {
+      "id": "F",
+      "phase": 2,
+      "dt_initialization": "explicit_mamba",
+      "entropy_weight": 0.0002,
+      "shrink_threshold": 0
+    },
+    {
+      "id": "G",
+      "phase": 2,
+      "dt_initialization": "existing",
+      "entropy_weight": 0.0006826666666666667,
+      "shrink_threshold": 0
+    },
+    {
+      "id": "H",
+      "phase": 2,
+      "dt_initialization": "explicit_mamba",
+      "entropy_weight": 0.0006826666666666667,
+      "shrink_threshold": 0
+    }
+  ],
+  "conditional_comparisons": [
+    "matched_kernel_2_vs_3",
+    "fixed_four_score_aggregations",
+    "matched_CoroSpiral_raster_Hilbert",
+    "3d_CNN_AE_and_Transformer_AE",
+    "deferred_cosine_addressing",
+    "deferred_first_stage_longitudinal_resolution",
+    "deferred_radial_weighted_MSE"
+  ],
+  "source_evidence": [
+    {
+      "path": "main_files/model.py",
+      "lines": [
+        39,
+        65,
+        117,
+        123,
+        126,
+        151
+      ]
+    },
+    {
+      "path": "main_files/core/model_trainer.py",
+      "lines": [
+        37,
+        59,
+        90
+      ]
+    },
+    {
+      "path": "legacy_source/main_files/core/model_trainer.py",
+      "lines": [
+        132,
+        134
+      ]
+    },
+    {
+      "path": "main_files/core/evaluation.py",
+      "lines": [
+        24,
+        29,
+        45
+      ]
+    },
+    {
+      "path": "docs/LEGACY_REPRODUCTION.md"
+    },
+    {
+      "path": "docs/RESTART_ORDERED_V2.md"
+    }
+  ],
+  "note": "Planning record only; no new training run or performance improvement is claimed. Do not select configurations using held-out or external labels.",
+  "notion_content": "<toggle heading=\"h2\">\n추가할 점 · 모델 개선 실험 조합\n\n작성: <date start=\"2026-11-09\" /> · <b>검토 계획 / 미실행</b>\n\n독립 서브에이전트 3명의 의견과 후속 논의를 종합했다. 아래 조합은 실험 후보이며, 성능 개선이 확인되거나 최종 모델로 채택된 상태는 아니다.\n\n### 1. 의견 종합과 이번 범위\n\n| 검토 관점 | 주요 제안 | 이번 반영 |\n| --- | --- | --- |\n| 구조·표현력 | kernel 2 기준 복원, Mamba dt 초기화, 메모리 조회 정규화, 종축 해상도 보존 | kernel 2를 기준으로 두고 초기화부터 비교 |\n| 이상탐지 | entropy 실효 강도, 메모리 조회 정규화, 환자 균등 학습, 혈관 주변 가중 손실 | entropy 강도 우선 비교. 조회·손실 변경은 후순위 |\n| 리뷰어 대응 | 집계 비교, kernel 2, soft/hard memory 분리, 환자 균등 학습 | 메모리 대조와 기존 집계 분석 추가 |\n\n<b>샘플링 변경은 사용자 결정에 따라 제외한다.</b> 기존의 모든 정상 학습 패치를 사용하고, 정상·질환 테스트 환자는 추출된 패치 전부를 평가한다. 학습 환자별 기여도 조정과 테스트 패치 제외는 다른 개념이지만, 이번에는 변경 요인을 줄인다.\n\n<b>코사인은 1차 실험에서 제외한다.</b> 투고 원고의 cosine은 학습률 scheduler이며, 메모리 cosine similarity는 명시돼 있지 않다. 복원한 구현은 내적 조회다. 원래 MemAE 논문에 cosine이 있어도 우리 기존 구현의 복원으로 취급하지 않는다.\n\n### 2. 공통으로 고정할 조건\n\n- kernel 2의 약 1.72M 구조, dims 32/64/128, depths 2/2/2, d_state 8, memory 300.\n- CoroSpiral 양방향 scan, 내적 메모리 조회, 현재 decoder와 균등 MSE.\n- ordered_mm_v2 입력, 동일 환자 분할·seed·학습 예산. 정상 학습/validation만으로 checkpoint와 판정 기준 결정.\n- 올바른 방향별 SSM 파라미터 분리, memory-slot 축 entropy, 고정된 best checkpoint 보관 유지.\n- 환자 주 점수는 max. mean·top-5·95 percentile은 동일 patch 점수로 계산하는 보조 비교.\n- 과거 원본 재현 실행은 별도 참고다. 과거 test/validation 공유나 잘못된 SSM 분리를 새 기준 모델에 넣지 않는다.\n\n### 3. 1차: 초기화 × entropy 가중치 — 4개 조합\n\n| ID | dt 초기화 | entropy λ | memory shrinkage | 확인 목적 |\n| --- | --- | --- | --- | --- |\n| A | 기존 | 0.0002 | hard, threshold 0.0025 | 수정된 평가 절차에서의 기준 |\n| B | 명시적 초기화 | 0.0002 | A와 동일 | 초기화만 바꾼 효과 |\n| C | 기존 | 0.0006826667 | A와 동일 | entropy 크기를 맞춘 효과 |\n| D | 명시적 초기화 | 0.0006826667 | A와 동일 | 두 변경의 결합 효과 |\n\n- A↔B, C↔D: 초기화 효과.\n- A↔C, B↔D: λ 효과.\n- 네 조건을 함께 보고 두 변경이 결합될 때의 차이도 확인한다. D가 반드시 좋다는 전제는 없다.\n- 명시적 초기화는 공식 Mamba의 dt 초기화 방식을 두 scan 방향에 적용하는 후보다. 기준 범위는 softplus(dt bias) 0.001–0.1로 고정하고, 범위 자체를 여러 값으로 탐색하지 않는다.\n- λ 대조값의 근거: 같은 attention에서 legacy entropy와 수정 entropy의 크기는 약 L/M배 차이 난다. 현재 latent token L=1024, memory M=300이므로 0.0002×1024/300=0.0006826667이다. <b>최적값이라는 뜻은 아니며, hard shrinkage나 다른 변경의 영향까지 같아지지는 않는다.</b>\n\n### 4. 필요할 때 확장: soft/hard memory — 총 8개 조합\n\nA–D에 대응하는 아래 네 조건을 추가하면 초기화 2종 × λ 2종 × shrinkage 유무 2종의 비교가 된다.\n\n| ID | dt 초기화 | entropy λ | memory shrinkage | 직접 비교 |\n| --- | --- | --- | --- | --- |\n| E | 기존 | 0.0002 | 없음: soft attention | A↔E |\n| F | 명시적 초기화 | 0.0002 | 없음: soft attention | B↔F |\n| G | 기존 | 0.0006826667 | 없음: soft attention | C↔G |\n| H | 명시적 초기화 | 0.0006826667 | 없음: soft attention | D↔H |\n\nsoft 조건도 올바른 entropy와 SSM 분리는 유지한다. 과거 hardtanh 오류를 재도입하는 것이 아니라, shrinkage를 의도적으로 끈 별도 대조군으로 명시한다. memory module 자체는 유지한다.\n\n확인할 것은 정상 validation 오차, token당 활성·유효 슬롯 수, 전체 슬롯 사용 쏠림, entropy, query/key 크기, 환자별 재구성 차이다. 현재 300 slots에서 threshold 0.0025는 1/300보다 작으므로, zero-memory-row=0만으로 정상 prototype 학습을 입증할 수 없다.\n\n### 5. 별도 대조와 후순위 후보\n\n| 후보 | 가능한 조합 | 필요한 이유 / 조건 |\n| --- | --- | --- |\n| kernel 크기 | A와 같은 조건에서 kernel 2↔3만 비교 | 1.72M↔2.11M 구조 차이 분리. 기존 v2 결과와 조건이 다른 채 단순 비교하지 않음 |\n| 집계 방식 | 각 모델의 동일 점수에 max / mean / top-5 / 95 percentile | 추가 학습 없이 리뷰어 요구에 대응. 결과를 보고 primary를 교체하지 않음 |\n| scan 기여 | 미리 고정한 공통 설정에서 CoroSpiral / 명시한 raster 양방향 / Hilbert | 동일 backbone·방향 수·학습 예산으로 핵심 기여 확인. 단계별 token 연속성도 측정 |\n| baseline | 같은 입력·분할의 3D CNN AE, Transformer AE | 모델 개선 효과와 CoroSpiral 효과를 구분하기 위한 비교. 메모리 포함 여부 등 차이 명시 |\n| cosine 조회 — 보류 | 기준 A와, query/key 정규화 + 고정 temperature 조건 비교 | 필요할 때 독립 후보로 추가. memory value는 유지하며 temperature는 내부 자료에서 고정 |\n| 종축 해상도 — 후순위 | 기준 A와, 첫 down/up-sampling만 (1,2,2)인 조건 비교 | 물리 간격·계산량·latent token 수 변화가 있어 구조 변경으로 설명. λ 대조값도 재산정 필요 |\n| 반경 가중 MSE — 후순위 | 기준 A와, 혈관 중심선 주변에 완만한 고정 가중치를 둔 조건 비교 | 기존 모델의 중심부/주변부 오차 분석을 먼저 수행. 주변부를 0으로 자르지 않고 학습·점수 정의를 함께 명시 |\n\n코사인·종축 해상도·가중 MSE를 한꺼번에 결합하지 않는다. 환자별 sampling, 테스트 패치 축소, 병변 라벨 기반 learned aggregation은 이번 후보에서 제외한다.\n\n### 6. 실행·평가 순서\n\n1. <b>빠른 동작 점검:</b> A–D를 같은 사전 지정 fold·seed에서 점검한다. 수치 오류, 수렴, 정상 validation 오차, 메모리 붕괴 여부를 확인한다. 이 단계의 짧은 학습만으로 질환 분리 성능을 판단하지 않는다.\n2. <b>사전 고정:</b> 정상 학습·내부 검증 자료에서 실행 가능한 조건과 평가 계획을 고정한다. 정상 MSE가 가장 낮다는 이유만으로 이상탐지 최적 모델이라고 선정하지 않는다.\n3. <b>공통 비교:</b> A–D를 4-fold × 동일 seed 1개로 비교하면 16회 학습이다. 질환 시험 결과를 확인한 뒤 설정을 계속 바꾸지 않고 네 조건의 결과를 함께 보고한다. E–H까지 같은 방식이면 총 32회다.\n4. <b>확증:</b> 최종 비교로 사전에 정한 조건은 4-fold × 5-seed로 검증한다. 조건당 20회이며, 외부 800명은 고정된 조건의 평가에만 사용한다. 이미 열람한 외부 결과를 근거로 반복 튜닝하지 않는다.\n5. <b>기록:</b> AUROC/AP·환자별 점수·메모리 지표·시간을 함께 남긴다. 동일 환자끼리 paired 비교하고, 반복된 질환 환자와 fold/seed를 독립 표본처럼 합치지 않는다. 실제 결과가 없는 지금은 모든 항목을 미실행으로 둔다.\n\n### 7. 원고·답변서 반영 범위\n\nkernel 명세, dt 초기화, λ 값·선택 근거는 구현 세부사항에 간결하게 기재한다. 실제 연산이 달라지는 정정과 soft/hard memory 대조는 답변서에 명시한다. 코사인·종축 stride·가중 MSE를 채택하면 해당 방법 정의와 비교 결과를 추가한다. 모든 성능 차이를 CoroSpiral의 효과로 묶지 않는다.\n\n근거: [Mamba 공식 초기화 구현](https://github.com/state-spaces/mamba/blob/main/mamba_ssm/modules/mamba_simple.py), [MemAE의 메모리 조회·희소화 정의](https://arxiv.org/html/1904.02639#S3.SS3).\n</toggle>"
+}

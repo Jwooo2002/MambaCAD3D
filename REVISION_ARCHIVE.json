@@ -1,0 +1,922 @@
+{
+  "snapshot_date": "2026-11-12",
+  "files": [
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/README.md",
+      "path": "revision/README.md",
+      "sha256": "e6fdd25b7566e27686d91f01c966c5cff47fe817e83b34776755a7dda9f9d47d",
+      "bytes": 8685
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/SOURCE_MANIFEST.json",
+      "path": "revision/SOURCE_MANIFEST.json",
+      "sha256": "fd78d16eb29d0660dab64007348f1f011dc450136420bb35417113afb1481e5d",
+      "bytes": 5985
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main.py",
+      "path": "revision/main.py",
+      "sha256": "030cba3e099c4a1784c589bbd31d657b65dc7b3318bcdaefaf60ca7bcfe234b0",
+      "bytes": 4325
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/monitor.py",
+      "path": "revision/monitor.py",
+      "sha256": "bef0595e0cdc844a4086d4af6fc47f55578b0807eec4338d637a8a031497c3a5",
+      "bytes": 3183
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/monitor_data.py",
+      "path": "revision/monitor_data.py",
+      "sha256": "62955d6bd27c221605e38f45fd84768005fea212093018ff829f1813cc5c353b",
+      "bytes": 1886
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/pytest.ini",
+      "path": "revision/pytest.ini",
+      "sha256": "6c6ccf864e8f2d2e0223ee8e39bfde660c12435aa37d81e2b14000a6bee15003",
+      "bytes": 42
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/README.md",
+      "path": "revision/candidate_sweep/README.md",
+      "sha256": "8e4a56306c0c2d36a1b73351923caea0b7d2a0c53a03e380ceef727f285b5d49",
+      "bytes": 3984
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/candidate_hooks.py",
+      "path": "revision/candidate_sweep/candidate_hooks.py",
+      "sha256": "7facec88994cea132d0eb07cc434b529d210f87b773472083dff03cc4880a748",
+      "bytes": 3652
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/diagnose_memory.py",
+      "path": "revision/candidate_sweep/diagnose_memory.py",
+      "sha256": "a60f877f560eaef315dea8feb7821ee4cd23956350acb3581f5e1c175d42158e",
+      "bytes": 12188
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/diagnose_memory_causes.py",
+      "path": "revision/candidate_sweep/diagnose_memory_causes.py",
+      "sha256": "68d37e31fb4d3aeea77215aa398dfcda96e6ab1130d6b970893942b4d73ce044",
+      "bytes": 4956
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/diagnose_memory_usage.py",
+      "path": "revision/candidate_sweep/diagnose_memory_usage.py",
+      "sha256": "574a5582bf78a6c06aea279bdc10d1e456347598bc66d18cbb603f9393f8dde6",
+      "bytes": 11892
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/parallel_queue.py",
+      "path": "revision/candidate_sweep/parallel_queue.py",
+      "sha256": "bf7c89617a12baddd2676b80e3957993f99698153f86d7b982cf7e902f97b071",
+      "bytes": 10803
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/run_candidates.py",
+      "path": "revision/candidate_sweep/run_candidates.py",
+      "sha256": "60e4bacd27102480da673681e4bac8560e4d5f1b227659143d55a8262f337f08",
+      "bytes": 10888
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/candidate_sweep/verify_candidates.py",
+      "path": "revision/candidate_sweep/verify_candidates.py",
+      "sha256": "725b8d2b5f1ac354f4e14546f54b04c57fc6c10b9ccb5d77abfa0945bc74770c",
+      "bytes": 6225
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/configs/asoca_revision.json",
+      "path": "revision/configs/asoca_revision.json",
+      "sha256": "0f316ca768c09551868e97c48157abda6571d72b6300134384972e509c4e3b33",
+      "bytes": 1611
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/configs/asoca_revision_legacy_inputs.json",
+      "path": "revision/configs/asoca_revision_legacy_inputs.json",
+      "sha256": "9f3990645a3c227eeab53e2b53912ce8ef0ba49d024014c69ccb1d162e594b1b",
+      "bytes": 1053
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/configs/physical_sampling_v2.json",
+      "path": "revision/configs/physical_sampling_v2.json",
+      "sha256": "1b3f85d64ffd57c26280d53b36041234be0ac8c3a4799c95cbeadcf72acf9282",
+      "bytes": 1293
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/ASOCA_PREPROCESSING_FINDING.md",
+      "path": "revision/docs/ASOCA_PREPROCESSING_FINDING.md",
+      "sha256": "a5a5ef3ded1845c7d80d51ed996acdf34824748c16418d51f4ace295318987cb",
+      "bytes": 2327
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/ASTRA_PREPROCESSING_AUDIT.md",
+      "path": "revision/docs/ASTRA_PREPROCESSING_AUDIT.md",
+      "sha256": "5eab3127f374dbd1d685817dace10e3390bbeff8553ba64280c6df5b03a4cbea",
+      "bytes": 18375
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/CANDIDATE_FAILURE_DIAGNOSIS_20261110.md",
+      "path": "revision/docs/CANDIDATE_FAILURE_DIAGNOSIS_20261110.md",
+      "sha256": "0e7ea08d8e1411b734621eb5006a63e9149455447527642a95c2c4069bc3b3d6",
+      "bytes": 10567
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/HYBRID_VALIDATION_FINAL_20261112.md",
+      "path": "revision/docs/HYBRID_VALIDATION_FINAL_20261112.md",
+      "sha256": "a468543ff93970835481c953fbfbfbda4a7fcd7b95b1b465db93c7328b67aab1",
+      "bytes": 7705
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/HYBRID_VALIDATION_RUNS_20261111.md",
+      "path": "revision/docs/HYBRID_VALIDATION_RUNS_20261111.md",
+      "sha256": "9764d6ed6ee8879a09bde3edd26b9df5e4e9001971b17ea59059a8bb7fa271b6",
+      "bytes": 30724
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/IMAGECAS_X_PREPARATION.md",
+      "path": "revision/docs/IMAGECAS_X_PREPARATION.md",
+      "sha256": "3f02ea7dc6a3e0edf1793455ea623d9232b8438453f9a3011faa556c34724835",
+      "bytes": 6815
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/LEGACY_REPRODUCTION.md",
+      "path": "revision/docs/LEGACY_REPRODUCTION.md",
+      "sha256": "f3bb830d7b4e2de77e9533f8b6f459ac2e03631b2e3e7cbfe4dc4a481b9b9c68",
+      "bytes": 7150
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/MEMORY_CONTINUATION_RESULTS_20261110.md",
+      "path": "revision/docs/MEMORY_CONTINUATION_RESULTS_20261110.md",
+      "sha256": "f3de39ef2af766041d28e0d0f48715d27a3158084ce4a2889a71e9266f9d9f53",
+      "bytes": 5820
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/MEMORY_FIXED_EVAL_RESULTS_20261111.md",
+      "path": "revision/docs/MEMORY_FIXED_EVAL_RESULTS_20261111.md",
+      "sha256": "06d84b541715886a4f9d05421e05e9c970757baadc5f0730fbf2274abfcaa66e",
+      "bytes": 5491
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/MEMORY_M3_RESULTS_20261110.md",
+      "path": "revision/docs/MEMORY_M3_RESULTS_20261110.md",
+      "sha256": "564e7ba8aa276ca8e57aaa3706c86c5618199c826bd00049eee925c9164c9a72",
+      "bytes": 5060
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/MEMORY_PILOT_RESULTS_20261110.md",
+      "path": "revision/docs/MEMORY_PILOT_RESULTS_20261110.md",
+      "sha256": "20210e720d3c7a0db049c39a7db37523afe0f9ec38708434cbd2d776a730723d",
+      "bytes": 5599
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/MEMORY_REPAIR_PLAN_20261110.md",
+      "path": "revision/docs/MEMORY_REPAIR_PLAN_20261110.md",
+      "sha256": "7bbb39d3fcdb9d5c84a8867312fbb8358e41803089c8579889da09a517b0ddda",
+      "bytes": 34954
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/MEMORY_USAGE_DIAGNOSIS_20261110.md",
+      "path": "revision/docs/MEMORY_USAGE_DIAGNOSIS_20261110.md",
+      "sha256": "f467e0044aaaf9c30aaa230e8a64627eeb61698a157b6b7363260b1e8fdfa8de",
+      "bytes": 7226
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/MODEL_STRUCTURE_AUDIT_20261111.md",
+      "path": "revision/docs/MODEL_STRUCTURE_AUDIT_20261111.md",
+      "sha256": "65433efa51991988fbb42b15c48d6acc26a25c81bceb063522f285ff20383df2",
+      "bytes": 12087
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/PERFORMANCE_EXTERNAL_FOLLOWUP_20261112.md",
+      "path": "revision/docs/PERFORMANCE_EXTERNAL_FOLLOWUP_20261112.md",
+      "sha256": "1ad8bd065ecff0bc48fbf763379253c9745d3b462f0bfb2e0b3ba029636eb918",
+      "bytes": 4333
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/PERFORMANCE_SEARCH_PLAN_20261112.md",
+      "path": "revision/docs/PERFORMANCE_SEARCH_PLAN_20261112.md",
+      "sha256": "3810845aaa07ecde2433df20fe4c272c03688c0f21a8eb92aaccb1e5683894af",
+      "bytes": 8623
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/PERFORMANCE_SEARCH_RESULTS_20261112.md",
+      "path": "revision/docs/PERFORMANCE_SEARCH_RESULTS_20261112.md",
+      "sha256": "e44c9643aac54b51087987c65a9b79dc8aa7cda70d17d388d4316167fdf85ed1",
+      "bytes": 27670
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/RESTART_ORDERED_V2.md",
+      "path": "revision/docs/RESTART_ORDERED_V2.md",
+      "sha256": "ca6b001f1b23dba5f30f1421e63f6fb705d2fd33a9944879b5b47acf65be9426",
+      "bytes": 6301
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/REVIEWER_RESPONSE_MAP.json",
+      "path": "revision/docs/REVIEWER_RESPONSE_MAP.json",
+      "sha256": "97857b99853deefae8da7f1ffc03f9411e1ce51274d55157ffbd4197d8236ff1",
+      "bytes": 34935
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/REVISION_CHECKLIST.md",
+      "path": "revision/docs/REVISION_CHECKLIST.md",
+      "sha256": "bd582ebd68d7d05d54a04cbe09bebf726c385ca6b8c9b6574303a523d79577a7",
+      "bytes": 5693
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/REVISION_EXPERIMENT_PLAN.json",
+      "path": "revision/docs/REVISION_EXPERIMENT_PLAN.json",
+      "sha256": "65cd0266d43eed290673c166c33d7caf0173a087139c94c527d9adaf6f05dcab",
+      "bytes": 226447
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/REVISION_EXPERIMENT_PLAN_v1_20261109.json",
+      "path": "revision/docs/REVISION_EXPERIMENT_PLAN_v1_20261109.json",
+      "sha256": "00d21a2de910ad2ccaa04e5bec59e3265fa61ae232d1e99ae5bd318a54f39290",
+      "bytes": 12138
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/SSM_OFFICIAL_COMPARISON_20261111.md",
+      "path": "revision/docs/SSM_OFFICIAL_COMPARISON_20261111.md",
+      "sha256": "230c2c60afae1c1c342f7e68044ab99b51dabf40aaa39750910a3d2f6f55c68d",
+      "bytes": 12649
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/SSM_REPAIR_INTERIM_20261111.md",
+      "path": "revision/docs/SSM_REPAIR_INTERIM_20261111.md",
+      "sha256": "a3838dbfa2a4542525feee6ceeff8fc4090b2ac12e1090153c424e313bfca4ec",
+      "bytes": 7816
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/SSM_REPAIR_RUNS_20261111.md",
+      "path": "revision/docs/SSM_REPAIR_RUNS_20261111.md",
+      "sha256": "f2af6bdc2bd96cf049aa0887c29adc2218054196550a85b9f18dff424c2c54d4",
+      "bytes": 7533
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/docs/UMAMBA_COMPARISON_20261111.md",
+      "path": "revision/docs/UMAMBA_COMPARISON_20261111.md",
+      "sha256": "06bbbe2613b15e0bc20c5035cd0a23b3f259a2c4eb602ba0ebd4902758d26e62",
+      "bytes": 9920
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_reproduction/audit_checkpoints.py",
+      "path": "revision/legacy_reproduction/audit_checkpoints.py",
+      "sha256": "6bdc106ec4ddb0b812a7086e95c78443d4bd70cc2dd8a7daf63ed3302fe6ed89",
+      "bytes": 7788
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_reproduction/recovery_manifest.json",
+      "path": "revision/legacy_reproduction/recovery_manifest.json",
+      "sha256": "6ef1417a0035b326141bf3cc4e70cccc89f9da86acfe17f8f554316be0cf807e",
+      "bytes": 2143
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_reproduction/run_original_training.py",
+      "path": "revision/legacy_reproduction/run_original_training.py",
+      "sha256": "fba4e44d2aed11178ae180e5bfe2dabb8a72f2bb14a3e6134c6271007a963d33",
+      "bytes": 6424
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_reproduction/source/csms6s.py",
+      "path": "revision/legacy_reproduction/source/csms6s.py",
+      "sha256": "b709d303a0b0917d3d1e46acf4b0a5ad01a91ca508d289557b8c87a4432902c5",
+      "bytes": 10378
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_reproduction/source/model.py",
+      "path": "revision/legacy_reproduction/source/model.py",
+      "sha256": "dfd24dd65df456e10cd6e93b2417300c084dce1cf1eb14a25b94c9b07aa665dd",
+      "bytes": 8773
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_reproduction/source/utils_scan.py",
+      "path": "revision/legacy_reproduction/source/utils_scan.py",
+      "sha256": "70d9b586edb782a241def8ae885cb56e4999c2c426dcbc6a9d640099cbf24f97",
+      "bytes": 4995
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/csms6s.py",
+      "path": "revision/legacy_source/main_files/csms6s.py",
+      "sha256": "b709d303a0b0917d3d1e46acf4b0a5ad01a91ca508d289557b8c87a4432902c5",
+      "bytes": 10378
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/main.py",
+      "path": "revision/legacy_source/main_files/main.py",
+      "sha256": "bf2dcaea2f1cbf1f6dd29e458c70a88a7499fdb0c45bfb16c49cd03281cb5abd",
+      "bytes": 1909
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/model.py",
+      "path": "revision/legacy_source/main_files/model.py",
+      "sha256": "078f78311fe423b3f928edb24e4035065b4582247a88cfb6809d33e46c6bebee",
+      "bytes": 8779
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils_scan.py",
+      "path": "revision/legacy_source/main_files/utils_scan.py",
+      "sha256": "70d9b586edb782a241def8ae885cb56e4999c2c426dcbc6a9d640099cbf24f97",
+      "bytes": 4995
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/core/__init__.py",
+      "path": "revision/legacy_source/main_files/core/__init__.py",
+      "sha256": "0cd1c6d7890b535caa80dad40bc2be73952b99aa0c5acd4a0d9ebdf030e03577",
+      "bytes": 432
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/core/experiment_manager.py",
+      "path": "revision/legacy_source/main_files/core/experiment_manager.py",
+      "sha256": "6bac04cd4242887f76a30437269433a8d4c4dcb56dbb765570af3e25fc7f5185",
+      "bytes": 19714
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/core/fp_based_evaluator.py",
+      "path": "revision/legacy_source/main_files/core/fp_based_evaluator.py",
+      "sha256": "e3221ef87ac8a3cf49e3c3a2e1bdab5262a1e5063b6b5f78a1e50ceba4708531",
+      "bytes": 10039
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/core/model_evaluator.py",
+      "path": "revision/legacy_source/main_files/core/model_evaluator.py",
+      "sha256": "71ffdf7082ce8538c916ae19efd0170f72f137b45ab96e44e2c52b2a364098c7",
+      "bytes": 6035
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/core/model_trainer.py",
+      "path": "revision/legacy_source/main_files/core/model_trainer.py",
+      "sha256": "74b87656c9998827e9e73ae219015e120eb18e1772aab2f2aee70f34ae873e60",
+      "bytes": 10958
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/core/patient_level_evaluator.py",
+      "path": "revision/legacy_source/main_files/core/patient_level_evaluator.py",
+      "sha256": "90f9b07e1fed18fde5dc57289d841913acf693ef6df45feb449153d014ccfa21",
+      "bytes": 10752
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/data/VideoDataset.py",
+      "path": "revision/legacy_source/main_files/data/VideoDataset.py",
+      "sha256": "f8e29772680a90de54afff582dd07642903deef3c9d337a6bd9e89d9e6ee3bb3",
+      "bytes": 1701
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/__init__.py",
+      "path": "revision/legacy_source/main_files/utils/__init__.py",
+      "sha256": "e68615bdc11b02800c2b335a25a7aba24020405c15e2610900b6fe256c2765c9",
+      "bytes": 655
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/anomaly_patch_saver.py",
+      "path": "revision/legacy_source/main_files/utils/anomaly_patch_saver.py",
+      "sha256": "5b17cdd5526fd6e3a804615b890d38f4b37a8cef91bf77c91b39d33c23596211",
+      "bytes": 17004
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/config_manager.py",
+      "path": "revision/legacy_source/main_files/utils/config_manager.py",
+      "sha256": "f77948fcd43a01c643041bb9b08e8a1f0457b8cb32005d771042da009bfc01ee",
+      "bytes": 11059
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/extreme_score_visualizer.py",
+      "path": "revision/legacy_source/main_files/utils/extreme_score_visualizer.py",
+      "sha256": "5549d74b146f1c6f612f66f6af1bf95271226adec9a99717ac35f8a402083004",
+      "bytes": 16270
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/report_generator.py",
+      "path": "revision/legacy_source/main_files/utils/report_generator.py",
+      "sha256": "b15adcea69cd0f251118c88c73e55ad377f04db77283522b41615b7cea0d5ea2",
+      "bytes": 30339
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/reproducibility.py",
+      "path": "revision/legacy_source/main_files/utils/reproducibility.py",
+      "sha256": "01c9bb59316f03f9a5c3f6cf23392772f251c7a724d7876d04e3a36964f67674",
+      "bytes": 1042
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/results_saver.py",
+      "path": "revision/legacy_source/main_files/utils/results_saver.py",
+      "sha256": "4ff8486cd267516e158a465fcecd9b86913897db939e6e0a20639d9e0a3a81ef",
+      "bytes": 14912
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/sample_config.py",
+      "path": "revision/legacy_source/main_files/utils/sample_config.py",
+      "sha256": "8cd5476a116f385a2c6d16e8618c6a6ef6e7df5e18b1d1bd3babbf980d425087",
+      "bytes": 1957
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/statistical_analyzer.py",
+      "path": "revision/legacy_source/main_files/utils/statistical_analyzer.py",
+      "sha256": "03bd6e2798be745477451cfe6766cf929dd90c51868acf60f6a1e85b0a84d7d4",
+      "bytes": 6569
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/legacy_source/main_files/utils/visualizer.py",
+      "path": "revision/legacy_source/main_files/utils/visualizer.py",
+      "sha256": "98e69a4399b19f5c93a25d42adc90bb828be82bba2a45b52789added950ad9da",
+      "bytes": 17442
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/__init__.py",
+      "path": "revision/main_files/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/csms6s.py",
+      "path": "revision/main_files/csms6s.py",
+      "sha256": "062faa50627ce1fd0d10f873386ae8cb3ec79f3923e33930c8d8e48d1822d81b",
+      "bytes": 10395
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/model.py",
+      "path": "revision/main_files/model.py",
+      "sha256": "3504cd2479c3ee5a8d8d42ba513f49a4ef61f59182d64b4b6378650b41a3392e",
+      "bytes": 9091
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/utils_scan.py",
+      "path": "revision/main_files/utils_scan.py",
+      "sha256": "70d9b586edb782a241def8ae885cb56e4999c2c426dcbc6a9d640099cbf24f97",
+      "bytes": 4995
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/core/__init__.py",
+      "path": "revision/main_files/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/core/evaluation.py",
+      "path": "revision/main_files/core/evaluation.py",
+      "sha256": "04eb497c685b38cc23f09d05e2e0648daef3f4ba6f659a63a4a9b13e01007b82",
+      "bytes": 4489
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/core/experiment_manager.py",
+      "path": "revision/main_files/core/experiment_manager.py",
+      "sha256": "11efdccc3122a544c791a622cbbdeaccde7cb1bd986f8b47defd6dfc64359bea",
+      "bytes": 10951
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/core/external.py",
+      "path": "revision/main_files/core/external.py",
+      "sha256": "d528a9b9299bbe9ea17c1fd9355748f8530b32091e4c40acf2ca6efd14141feb",
+      "bytes": 3861
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/core/metrics.py",
+      "path": "revision/main_files/core/metrics.py",
+      "sha256": "ec6e0d8e6bc30ad0b5059074652b36a2dcbd6b83c6dff34de4ff1a67e324625c",
+      "bytes": 4760
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/core/model_trainer.py",
+      "path": "revision/main_files/core/model_trainer.py",
+      "sha256": "975342831c2258f88618a0aac895fb4d479a482d002f4d62123f557e1b9b9406",
+      "bytes": 7450
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/core/protocol.py",
+      "path": "revision/main_files/core/protocol.py",
+      "sha256": "7492f840c7f148a10b05a7b947402724de5f16251d149076b24bba0f240042f7",
+      "bytes": 6713
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/data/__init__.py",
+      "path": "revision/main_files/data/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/main_files/data/patients.py",
+      "path": "revision/main_files/data/patients.py",
+      "sha256": "0a3812d947aa7cdf4d5ec317e5bcfc9546b39d9d692396bc9e63412d5b37cd6d",
+      "bytes": 2005
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/README.md",
+      "path": "revision/memory_pilot/README.md",
+      "sha256": "5ac744db16a83ff9d0c7b327cec2a319a498c442fe11607e2c6bfb0df0c860f8",
+      "bytes": 5680
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/analyze_hybrid_validation.py",
+      "path": "revision/memory_pilot/analyze_hybrid_validation.py",
+      "sha256": "6466aa864e3b05f22a141375976ae027cf48fa894d64a3e973e1427ba8fe2271",
+      "bytes": 15856
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/analyze_ssm_partial.py",
+      "path": "revision/memory_pilot/analyze_ssm_partial.py",
+      "sha256": "74fd9345228359618e75a37979ebe96edef4cc38e67122c4952dc6bed9031a9f",
+      "bytes": 6561
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/audit_completed.py",
+      "path": "revision/memory_pilot/audit_completed.py",
+      "sha256": "26b2909482d5f10a77417cd53962fa44413c68affd1cc390d5e030c55ab30712",
+      "bytes": 4961
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/audit_continuation.py",
+      "path": "revision/memory_pilot/audit_continuation.py",
+      "sha256": "dd66cc8bf32b2f2ec1ec81f47354a39bf04a1483cc3f3db489e5178392472768",
+      "bytes": 6168
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/audit_fixed_evaluation.py",
+      "path": "revision/memory_pilot/audit_fixed_evaluation.py",
+      "sha256": "856371e5771116a997527f84d66216313d9b0dff931f239c44ef020ca0d54cd5",
+      "bytes": 9305
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/audit_hybrid_final.py",
+      "path": "revision/memory_pilot/audit_hybrid_final.py",
+      "sha256": "b554bf21530775c69d8346e5770845262ede1fbd45521bb9df85333baaf46d3b",
+      "bytes": 4492
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/audit_m3.py",
+      "path": "revision/memory_pilot/audit_m3.py",
+      "sha256": "f040cd40476fdd876ab8b947c7d092a507dd46eba0add1965103e2fc2e0b5877",
+      "bytes": 7171
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/audit_ssm_dynamics.py",
+      "path": "revision/memory_pilot/audit_ssm_dynamics.py",
+      "sha256": "f12bf5839a65a753c6e5e1a6f482ae903fa39fca73bc0027e705d7dafbc05bb4",
+      "bytes": 9336
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/continue_pilot.py",
+      "path": "revision/memory_pilot/continue_pilot.py",
+      "sha256": "c624bee1c545815d1fd5baca1069494f2461280b4e6106b36bbb546fa576809a",
+      "bytes": 21093
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/evaluate_fixed_checkpoints.py",
+      "path": "revision/memory_pilot/evaluate_fixed_checkpoints.py",
+      "sha256": "c65daaa2aa6254f1a6ea8653cc4095cc84558c1acd9346ad838f987fe505b79a",
+      "bytes": 14915
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/hybrid_probe.py",
+      "path": "revision/memory_pilot/hybrid_probe.py",
+      "sha256": "6ac979ee2346641f874412979ee70a3ed24ccee60c33a9172f725b8e4b0faaaa",
+      "bytes": 7436
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/monitor_hybrid_validation.py",
+      "path": "revision/memory_pilot/monitor_hybrid_validation.py",
+      "sha256": "81cbaf6637462edede5db5b0d1322380a8492737c0f32cbbc21ce538c75132df",
+      "bytes": 2983
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/probe.py",
+      "path": "revision/memory_pilot/probe.py",
+      "sha256": "61d15bd9e6ca8671775aecfe341bed57b0ab94296c2a9761d6ae54433fae7af1",
+      "bytes": 5874
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/run.py",
+      "path": "revision/memory_pilot/run.py",
+      "sha256": "5f317a3cfcac3073e8a8d847f8bf064f18e59a959426071373a16ef76261545a",
+      "bytes": 21045
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/run_hybrid_validation.py",
+      "path": "revision/memory_pilot/run_hybrid_validation.py",
+      "sha256": "5b33b5b35ae77e2181030c60104d78fcdf47e0541208f097dd533ad0780c896d",
+      "bytes": 18684
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/run_m3.py",
+      "path": "revision/memory_pilot/run_m3.py",
+      "sha256": "262e1d65c15e84f7ea43258729a378143edc63988b693cbf161d0bdb1cd31909",
+      "bytes": 19373
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/run_ssm_repair.py",
+      "path": "revision/memory_pilot/run_ssm_repair.py",
+      "sha256": "7eb845f177ab1ca4689ee95897756e5b80ddd3094cffda36399125829ba4e580",
+      "bytes": 22483
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/ssm_repair_probe.py",
+      "path": "revision/memory_pilot/ssm_repair_probe.py",
+      "sha256": "bd980f28f538ee49ff8348bd52099adf5170aa19a38bbb909e7007f72c51384e",
+      "bytes": 5041
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/memory_pilot/summarize_hybrid_audit.py",
+      "path": "revision/memory_pilot/summarize_hybrid_audit.py",
+      "sha256": "b72a31ea8e5fe6f3102d768e9f4b6b7de1cb54b2eef4f3c0c30af5f6d46f4cbd",
+      "bytes": 4722
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/analyze.py",
+      "path": "revision/performance_search/analyze.py",
+      "sha256": "30cb064015eea996fd91705c40e49d6423c0b9be71ff74dfd37c70f8253914a3",
+      "bytes": 7894
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/audit_running.py",
+      "path": "revision/performance_search/audit_running.py",
+      "sha256": "723d16fbf1ec289bdf8214b4499e4dc5fdfbaba5957f756b2d608d9a4681fb9b",
+      "bytes": 6746
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/checkpoint_diagnostics.py",
+      "path": "revision/performance_search/checkpoint_diagnostics.py",
+      "sha256": "abb0dcdecf169bce850ac2e853e5d52dc6e24acc2ec4f6bc7aaeaea69594a0a6",
+      "bytes": 3703
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/compare_inner.py",
+      "path": "revision/performance_search/compare_inner.py",
+      "sha256": "a2c14717b63390b6ee2ae65ebfbceb3699d5e797ed6ba96390fee9d0ab4de4cd",
+      "bytes": 4730
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/diagnose_constant_reference.py",
+      "path": "revision/performance_search/diagnose_constant_reference.py",
+      "sha256": "4db48cf77bc97d119904128da913dab7d7edcfeab068e9b7bfb0c09cdb3f38c1",
+      "bytes": 6975
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/diagnose_memory_size_boundary.py",
+      "path": "revision/performance_search/diagnose_memory_size_boundary.py",
+      "sha256": "dcaa67978866b512ec3e3d199b9ae443c264ae3c69963e90d431005806456a23",
+      "bytes": 4819
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/recover_after_reboot.py",
+      "path": "revision/performance_search/recover_after_reboot.py",
+      "sha256": "3125542b6d938a225dfb80d04358c4b907ada0ee12c680947efecab9bf4c8131",
+      "bytes": 6227
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/run.py",
+      "path": "revision/performance_search/run.py",
+      "sha256": "6391d5d294a5d1c7b9317057f79b2992c5d035b622f2a69cdceacdf5fd9e2810",
+      "bytes": 29829
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/performance_search/verify_completed.py",
+      "path": "revision/performance_search/verify_completed.py",
+      "sha256": "5615d576ebee083df47fe5bfc7da478e7e9dc685b6e1e5c7e6634455f478ac5f",
+      "bytes": 5589
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/audit_ordered_data.py",
+      "path": "revision/scripts/audit_ordered_data.py",
+      "sha256": "eabb69fae52a0800017fe424cdb292fbd9de36f70a01c898897838a0e31fe320",
+      "bytes": 5241
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/centerline_paths.py",
+      "path": "revision/scripts/centerline_paths.py",
+      "sha256": "a9d97129f64612c88d066349e68eda7ef20d875ee26f0234756692d2d9456936",
+      "bytes": 15920
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/fetch_imagecas_x.py",
+      "path": "revision/scripts/fetch_imagecas_x.py",
+      "sha256": "7409244a747d903d932d8bd35d0ffb5671f54915dbea976e712e130101231289",
+      "bytes": 14235
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/physical_patches.py",
+      "path": "revision/scripts/physical_patches.py",
+      "sha256": "637263ff0d5679bae800228f9b55953a0472f767cad8718891c2c778b9b218ce",
+      "bytes": 6946
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/prepare_imagecas_x.py",
+      "path": "revision/scripts/prepare_imagecas_x.py",
+      "sha256": "8bab90b0040abbfcd56ece54560c632dcb84d3135b67e32dc0c3aac848953030",
+      "bytes": 18971
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/preprocess_ordered.py",
+      "path": "revision/scripts/preprocess_ordered.py",
+      "sha256": "da1aca3d71bb59f0c86d9a3fdaa99b84479c2ba0e46d360a497caf060f288cc2",
+      "bytes": 13444
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/preview_imagecas_x.py",
+      "path": "revision/scripts/preview_imagecas_x.py",
+      "sha256": "090fb34e3e4012e1a1a09ad5efbfd19d397225dea4d6e758a04f48f85ea783b1",
+      "bytes": 2515
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/scripts/preview_ordered_patches.py",
+      "path": "revision/scripts/preview_ordered_patches.py",
+      "sha256": "e1b3b24a1c70259c1b23bf8a77be58b8d623bbb9a64af49c960f67c096c64825",
+      "bytes": 2350
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/splits/asoca_4fold.json",
+      "path": "revision/splits/asoca_4fold.json",
+      "sha256": "a92c8ccc1796c9c9bae2c3770ceace6a15a7ef301c48c91cb84aa435c317cf38",
+      "bytes": 16839
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/splits/asoca_ordered_mm_v2_4fold.json",
+      "path": "revision/splits/asoca_ordered_mm_v2_4fold.json",
+      "sha256": "623459ac1eea45a5428ffba7fa48a85231d3d6aa97db6800ed469d041a877255",
+      "bytes": 33512
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_centerline_paths.py",
+      "path": "revision/tests/test_centerline_paths.py",
+      "sha256": "64b8a27eaacf7a0ae179af13d3543c844aad33515209e5f5718e08f2349da65f",
+      "bytes": 8492
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_external_protocol.py",
+      "path": "revision/tests/test_external_protocol.py",
+      "sha256": "dea7e65a566c034bcc8c0d7b4e56cf3256dcfc859c5a71a9304ccf4fd83e4a93",
+      "bytes": 2653
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_imagecas_preparation.py",
+      "path": "revision/tests/test_imagecas_preparation.py",
+      "sha256": "d01a78a8f0022def0ebcf4f4a58bf1357f1299f78adcd5f6acdb39d318aa4b92",
+      "bytes": 6823
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_model_corrections.py",
+      "path": "revision/tests/test_model_corrections.py",
+      "sha256": "689a3070595ed2f5291b932b29c05fbcd7b6a3f708e8ddf8dfdc4dda5790b382",
+      "bytes": 1852
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_performance_search_protocol.py",
+      "path": "revision/tests/test_performance_search_protocol.py",
+      "sha256": "51927d4762f05f04651559477cbdab1cb67996a153350572fed711c4fcac9612",
+      "bytes": 8711
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_performance_search_recovery.py",
+      "path": "revision/tests/test_performance_search_recovery.py",
+      "sha256": "f48b3af1cb49e0b623c11ff20f012e7d77f538d3708f024d09788dad6b7d54dc",
+      "bytes": 3551
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_physical_patches.py",
+      "path": "revision/tests/test_physical_patches.py",
+      "sha256": "6b6a1e771867c142868b08c9a630920c9ae42e94c38d8b2dde327833b73be598",
+      "bytes": 2529
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/tests/test_revision_protocol.py",
+      "path": "revision/tests/test_revision_protocol.py",
+      "sha256": "ea1f52f07063c2c478a50ed9e0d8fdc631073b44747881d5129475e1601b93f5",
+      "bytes": 7610
+    },
+    {
+      "kind": "revision",
+      "source": "/mnt/sda2/Jiwoong/Results/VMamba/kfold_simplescan_revision/AGENTS.md",
+      "path": "revision/AGENTS.md",
+      "sha256": "aabacc9234dbff1f4d0d8e29bc5170a43f1af0858f07b726b3973a088c19edd8",
+      "bytes": 2901
+    }
+  ]
+}

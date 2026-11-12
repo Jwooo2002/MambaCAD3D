@@ -1,0 +1,499 @@
+{
+  "schema_version": 1,
+  "fingerprint_kind": "patient paths, sizes and modification times; not a content hash",
+  "data_fingerprint": "49e5d71b5aabcb9c622ac0a53701431e3e6696d40b70871ec1fea8faa80ca27c",
+  "protocol": {
+    "k_folds": 4,
+    "validation_normal_count": 3,
+    "split_seed": 42
+  },
+  "patients": [
+    {
+      "patient_id": "normal:N_10_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_10_patch.pkl",
+      "size_bytes": 19081018,
+      "mtime_ns": 1758529956935733000
+    },
+    {
+      "patient_id": "normal:N_11_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_11_patch.pkl",
+      "size_bytes": 13251060,
+      "mtime_ns": 1758529959155810000
+    },
+    {
+      "patient_id": "normal:N_12_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_12_patch.pkl",
+      "size_bytes": 12262198,
+      "mtime_ns": 1758529961109877000
+    },
+    {
+      "patient_id": "normal:N_13_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_13_patch.pkl",
+      "size_bytes": 12990954,
+      "mtime_ns": 1758529963035944000
+    },
+    {
+      "patient_id": "normal:N_14_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_14_patch.pkl",
+      "size_bytes": 12553423,
+      "mtime_ns": 1758529965095015000
+    },
+    {
+      "patient_id": "normal:N_15_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_15_patch.pkl",
+      "size_bytes": 10055061,
+      "mtime_ns": 1758529966834075000
+    },
+    {
+      "patient_id": "normal:N_16_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_16_patch.pkl",
+      "size_bytes": 12619301,
+      "mtime_ns": 1758529968820143000
+    },
+    {
+      "patient_id": "normal:N_17_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_17_patch.pkl",
+      "size_bytes": 6452389,
+      "mtime_ns": 1758529970405198000
+    },
+    {
+      "patient_id": "normal:N_18_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_18_patch.pkl",
+      "size_bytes": 14585625,
+      "mtime_ns": 1758529972425267000
+    },
+    {
+      "patient_id": "normal:N_19_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_19_patch.pkl",
+      "size_bytes": 12987533,
+      "mtime_ns": 1758529974448337000
+    },
+    {
+      "patient_id": "normal:N_1_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_1_patch.pkl",
+      "size_bytes": 15893809,
+      "mtime_ns": 1758529937090049000
+    },
+    {
+      "patient_id": "normal:N_20_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_20_patch.pkl",
+      "size_bytes": 17379634,
+      "mtime_ns": 1758529976872421000
+    },
+    {
+      "patient_id": "normal:N_2_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_2_patch.pkl",
+      "size_bytes": 11569306,
+      "mtime_ns": 1758529938858110000
+    },
+    {
+      "patient_id": "normal:N_3_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_3_patch.pkl",
+      "size_bytes": 16407894,
+      "mtime_ns": 1758529941325195000
+    },
+    {
+      "patient_id": "normal:N_4_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_4_patch.pkl",
+      "size_bytes": 13801739,
+      "mtime_ns": 1758529943583273000
+    },
+    {
+      "patient_id": "normal:N_5_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_5_patch.pkl",
+      "size_bytes": 8139813,
+      "mtime_ns": 1758529945751348000
+    },
+    {
+      "patient_id": "normal:N_6_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_6_patch.pkl",
+      "size_bytes": 14034539,
+      "mtime_ns": 1758529947830420000
+    },
+    {
+      "patient_id": "normal:N_7_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_7_patch.pkl",
+      "size_bytes": 14021822,
+      "mtime_ns": 1758529949938492000
+    },
+    {
+      "patient_id": "normal:N_8_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_8_patch.pkl",
+      "size_bytes": 14532113,
+      "mtime_ns": 1758529952265572000
+    },
+    {
+      "patient_id": "normal:N_9_patch",
+      "label": 0,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Normal/N_9_patch.pkl",
+      "size_bytes": 13267517,
+      "mtime_ns": 1758529954366645000
+    },
+    {
+      "patient_id": "diseased:D_10_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_10_patch.pkl",
+      "size_bytes": 9321872,
+      "mtime_ns": 1758529998542167000
+    },
+    {
+      "patient_id": "diseased:D_11_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_11_patch.pkl",
+      "size_bytes": 4547284,
+      "mtime_ns": 1758529999805211000
+    },
+    {
+      "patient_id": "diseased:D_12_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_12_patch.pkl",
+      "size_bytes": 12443074,
+      "mtime_ns": 1758530001838281000
+    },
+    {
+      "patient_id": "diseased:D_13_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_13_patch.pkl",
+      "size_bytes": 14268692,
+      "mtime_ns": 1758530004058357000
+    },
+    {
+      "patient_id": "diseased:D_14_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_14_patch.pkl",
+      "size_bytes": 10698305,
+      "mtime_ns": 1758530006025425000
+    },
+    {
+      "patient_id": "diseased:D_15_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_15_patch.pkl",
+      "size_bytes": 7755964,
+      "mtime_ns": 1758530007576479000
+    },
+    {
+      "patient_id": "diseased:D_16_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_16_patch.pkl",
+      "size_bytes": 5336764,
+      "mtime_ns": 1758530008947526000
+    },
+    {
+      "patient_id": "diseased:D_17_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_17_patch.pkl",
+      "size_bytes": 13596776,
+      "mtime_ns": 1758530011293607000
+    },
+    {
+      "patient_id": "diseased:D_18_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_18_patch.pkl",
+      "size_bytes": 12256539,
+      "mtime_ns": 1758530013223673000
+    },
+    {
+      "patient_id": "diseased:D_19_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_19_patch.pkl",
+      "size_bytes": 15921680,
+      "mtime_ns": 1758530015393748000
+    },
+    {
+      "patient_id": "diseased:D_1_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_1_patch.pkl",
+      "size_bytes": 8682676,
+      "mtime_ns": 1758529978565479000
+    },
+    {
+      "patient_id": "diseased:D_20_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_20_patch.pkl",
+      "size_bytes": 8199742,
+      "mtime_ns": 1758530017087806000
+    },
+    {
+      "patient_id": "diseased:D_2_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_2_patch.pkl",
+      "size_bytes": 19414125,
+      "mtime_ns": 1758529980900559000
+    },
+    {
+      "patient_id": "diseased:D_3_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_3_patch.pkl",
+      "size_bytes": 7995235,
+      "mtime_ns": 1758529982590618000
+    },
+    {
+      "patient_id": "diseased:D_4_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_4_patch.pkl",
+      "size_bytes": 16851448,
+      "mtime_ns": 1758529984776693000
+    },
+    {
+      "patient_id": "diseased:D_5_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_5_patch.pkl",
+      "size_bytes": 17105269,
+      "mtime_ns": 1758529987115774000
+    },
+    {
+      "patient_id": "diseased:D_6_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_6_patch.pkl",
+      "size_bytes": 22435832,
+      "mtime_ns": 1758529989998873000
+    },
+    {
+      "patient_id": "diseased:D_7_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_7_patch.pkl",
+      "size_bytes": 12882491,
+      "mtime_ns": 1758529991999942000
+    },
+    {
+      "patient_id": "diseased:D_8_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_8_patch.pkl",
+      "size_bytes": 17748469,
+      "mtime_ns": 1758529994546030000
+    },
+    {
+      "patient_id": "diseased:D_9_patch",
+      "label": 1,
+      "path": "/mnt/sda2/Jiwoong/Results/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_32_CTCA_64/Diseased/D_9_patch.pkl",
+      "size_bytes": 15250589,
+      "mtime_ns": 1758529996811108000
+    }
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "train": [
+        "normal:N_12_patch",
+        "normal:N_13_patch",
+        "normal:N_15_patch",
+        "normal:N_16_patch",
+        "normal:N_17_patch",
+        "normal:N_19_patch",
+        "normal:N_1_patch",
+        "normal:N_2_patch",
+        "normal:N_3_patch",
+        "normal:N_4_patch",
+        "normal:N_6_patch",
+        "normal:N_9_patch"
+      ],
+      "validation": [
+        "normal:N_14_patch",
+        "normal:N_20_patch",
+        "normal:N_8_patch"
+      ],
+      "test_normal": [
+        "normal:N_10_patch",
+        "normal:N_11_patch",
+        "normal:N_18_patch",
+        "normal:N_5_patch",
+        "normal:N_7_patch"
+      ],
+      "test_diseased": [
+        "diseased:D_10_patch",
+        "diseased:D_11_patch",
+        "diseased:D_12_patch",
+        "diseased:D_13_patch",
+        "diseased:D_14_patch",
+        "diseased:D_15_patch",
+        "diseased:D_16_patch",
+        "diseased:D_17_patch",
+        "diseased:D_18_patch",
+        "diseased:D_19_patch",
+        "diseased:D_1_patch",
+        "diseased:D_20_patch",
+        "diseased:D_2_patch",
+        "diseased:D_3_patch",
+        "diseased:D_4_patch",
+        "diseased:D_5_patch",
+        "diseased:D_6_patch",
+        "diseased:D_7_patch",
+        "diseased:D_8_patch",
+        "diseased:D_9_patch"
+      ]
+    },
+    {
+      "fold": 2,
+      "train": [
+        "normal:N_11_patch",
+        "normal:N_12_patch",
+        "normal:N_14_patch",
+        "normal:N_16_patch",
+        "normal:N_17_patch",
+        "normal:N_18_patch",
+        "normal:N_19_patch",
+        "normal:N_1_patch",
+        "normal:N_4_patch",
+        "normal:N_5_patch",
+        "normal:N_7_patch",
+        "normal:N_9_patch"
+      ],
+      "validation": [
+        "normal:N_10_patch",
+        "normal:N_2_patch",
+        "normal:N_3_patch"
+      ],
+      "test_normal": [
+        "normal:N_13_patch",
+        "normal:N_15_patch",
+        "normal:N_20_patch",
+        "normal:N_6_patch",
+        "normal:N_8_patch"
+      ],
+      "test_diseased": [
+        "diseased:D_10_patch",
+        "diseased:D_11_patch",
+        "diseased:D_12_patch",
+        "diseased:D_13_patch",
+        "diseased:D_14_patch",
+        "diseased:D_15_patch",
+        "diseased:D_16_patch",
+        "diseased:D_17_patch",
+        "diseased:D_18_patch",
+        "diseased:D_19_patch",
+        "diseased:D_1_patch",
+        "diseased:D_20_patch",
+        "diseased:D_2_patch",
+        "diseased:D_3_patch",
+        "diseased:D_4_patch",
+        "diseased:D_5_patch",
+        "diseased:D_6_patch",
+        "diseased:D_7_patch",
+        "diseased:D_8_patch",
+        "diseased:D_9_patch"
+      ]
+    },
+    {
+      "fold": 3,
+      "train": [
+        "normal:N_10_patch",
+        "normal:N_11_patch",
+        "normal:N_13_patch",
+        "normal:N_15_patch",
+        "normal:N_16_patch",
+        "normal:N_17_patch",
+        "normal:N_18_patch",
+        "normal:N_1_patch",
+        "normal:N_20_patch",
+        "normal:N_4_patch",
+        "normal:N_6_patch",
+        "normal:N_7_patch"
+      ],
+      "validation": [
+        "normal:N_2_patch",
+        "normal:N_5_patch",
+        "normal:N_8_patch"
+      ],
+      "test_normal": [
+        "normal:N_12_patch",
+        "normal:N_14_patch",
+        "normal:N_19_patch",
+        "normal:N_3_patch",
+        "normal:N_9_patch"
+      ],
+      "test_diseased": [
+        "diseased:D_10_patch",
+        "diseased:D_11_patch",
+        "diseased:D_12_patch",
+        "diseased:D_13_patch",
+        "diseased:D_14_patch",
+        "diseased:D_15_patch",
+        "diseased:D_16_patch",
+        "diseased:D_17_patch",
+        "diseased:D_18_patch",
+        "diseased:D_19_patch",
+        "diseased:D_1_patch",
+        "diseased:D_20_patch",
+        "diseased:D_2_patch",
+        "diseased:D_3_patch",
+        "diseased:D_4_patch",
+        "diseased:D_5_patch",
+        "diseased:D_6_patch",
+        "diseased:D_7_patch",
+        "diseased:D_8_patch",
+        "diseased:D_9_patch"
+      ]
+    },
+    {
+      "fold": 4,
+      "train": [
+        "normal:N_10_patch",
+        "normal:N_12_patch",
+        "normal:N_13_patch",
+        "normal:N_14_patch",
+        "normal:N_15_patch",
+        "normal:N_19_patch",
+        "normal:N_20_patch",
+        "normal:N_3_patch",
+        "normal:N_5_patch",
+        "normal:N_6_patch",
+        "normal:N_7_patch",
+        "normal:N_8_patch"
+      ],
+      "validation": [
+        "normal:N_11_patch",
+        "normal:N_18_patch",
+        "normal:N_9_patch"
+      ],
+      "test_normal": [
+        "normal:N_16_patch",
+        "normal:N_17_patch",
+        "normal:N_1_patch",
+        "normal:N_2_patch",
+        "normal:N_4_patch"
+      ],
+      "test_diseased": [
+        "diseased:D_10_patch",
+        "diseased:D_11_patch",
+        "diseased:D_12_patch",
+        "diseased:D_13_patch",
+        "diseased:D_14_patch",
+        "diseased:D_15_patch",
+        "diseased:D_16_patch",
+        "diseased:D_17_patch",
+        "diseased:D_18_patch",
+        "diseased:D_19_patch",
+        "diseased:D_1_patch",
+        "diseased:D_20_patch",
+        "diseased:D_2_patch",
+        "diseased:D_3_patch",
+        "diseased:D_4_patch",
+        "diseased:D_5_patch",
+        "diseased:D_6_patch",
+        "diseased:D_7_patch",
+        "diseased:D_8_patch",
+        "diseased:D_9_patch"
+      ]
+    }
+  ],
+  "diseased_reuse": "The same diseased patients are evaluated in every fold; observations are correlated."
+}

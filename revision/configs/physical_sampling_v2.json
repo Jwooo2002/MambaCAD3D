@@ -1,0 +1,21 @@
+{
+  "version": "ordered_mm_v2",
+  "cross_section_fov_mm": 8.0,
+  "cross_section_pixels": 32,
+  "longitudinal_spacing_mm": 0.5,
+  "depth": 64,
+  "stride": 32,
+  "hu_window": [-300.0, 400.0],
+  "path_policy": "root_to_leaf",
+  "cycle_policy": "error",
+  "topology_repair_overrides": {"ImageCAS-X:455:right": "shortest_path_tree"},
+  "topology_repair_note": "One source right-coronary cycle in scan 455; deterministic rooted shortest-path tree retains all nodes and records removed edge plus artificial terminal nodes. No patient exclusion.",
+  "frame_policy": "parallel_transport",
+  "short_path_policy": "repeat_terminal_plane_record_valid_depth",
+  "distal_coverage": "append_last_full_window_if_needed",
+  "deduplication": "full_window_center_and_frame_sha256_rounded_5_decimals",
+  "interpolation": "trilinear_after_HU_clip",
+  "outside_ct_hu": -300.0,
+  "minimum_centerline_in_lumen_fraction": 0.85,
+  "selection_note": "8mm FOV stays near the legacy approximately 7mm field in Normal_10; 0.25mm in-plane sampling is interpolation, not increased native CT resolution. Longitudinal 0.5mm is fixed across scanners. Chosen using source geometry before scoring corrected ASOCA or external CAD labels; this is a new physical protocol, not an exact reproduction of legacy voxel-index patches."
+}
