@@ -1,0 +1,2 @@
+  nohup bash -c "PYTHONPATH=. python main.py --normal_data_root './dataset/v12/0.05_8_32_CTCA_64/Normal' --diseased_data_root './dataset/v12/0.05_8_32_CTCA_64/Diseased' --gpu_id '0' --run_name 'your_run_name' --save_path './results/your_path' --k_folds 4 --epochs 100 --batch_size 2 --lr 0.0001 --mem_dim
+   300 --in_chans 1 --ssm_d_state 8 --dims 32 64 128 --depths 2 2 2" > nohup.out 2>&1 &

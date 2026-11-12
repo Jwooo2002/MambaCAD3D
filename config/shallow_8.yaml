@@ -1,0 +1,32 @@
+data:
+  diseased_data_root: ./dataset/v11/0.05_8_32_CTCA_32/Diseased
+  normal_data_root: ./dataset/v11/0.05_8_32_CTCA_32/Normal
+evaluation:
+  anomaly_threshold: 0.01
+  threshold_percentile: 95
+  use_optimal_threshold: true
+experiment:
+  confidence_level: 0.95
+  gpu_id: '0'
+  k_folds: 4
+  num_workers: 1
+  random_seed: 42
+  run_name: shallow_8
+  save_path: ./production_kfold_results
+model:
+  depths:
+  - 2
+  - 2
+  dims:
+  - 32
+  - 64
+  in_chans: 1
+  mem_dim: 500
+  ssm_d_state: 32
+training:
+  batch_size: 2
+  early_stopping_patience: 10
+  entropy_loss_weight: 0.0002
+  epochs: 1000
+  eta_min: 1.0e-06
+  lr: 0.0001

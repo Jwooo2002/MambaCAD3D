@@ -1,0 +1,24 @@
+normal_data_root: "/home/jiwoong/PycharmProjects/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_8_CTCA_64/Normal"
+diseased_data_root: "/home/jiwoong/PycharmProjects/VMamba/MemAE_kfold_simplescan/main_files/dataset/v11/0.05_8_8_CTCA_64/Diseased"
+run_name: "quick_test"
+save_path: "/home/jiwoong/PycharmProjects/VMamba/MemAE_kfold_simplescan/test_results"
+gpu_id: "1"
+num_workers: 1
+k_folds: 2
+confidence_level: 0.95
+random_seed: 1
+epochs: 2
+batch_size: 2
+lr: 0.0001
+eta_min: 0.000001
+entropy_loss_weight: 0.0002
+early_stopping_patience: 10
+in_chans: 1
+dims: [32, 64, 128, 128]
+depths: [2, 2, 2, 2]
+ssm_d_state: 8
+mem_dim: 300
+anomaly_threshold: 0.01
+use_optimal_threshold: true
+threshold_method: "accuracy"
+threshold_percentile: 95

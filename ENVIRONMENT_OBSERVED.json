@@ -1,0 +1,29 @@
+{
+  "captured_date": "2026-11-12",
+  "python": "3.10.18 (main, Jun  5 2025, 13:14:17) [GCC 11.2.0]",
+  "note": "Selected packages in current VMamba training environment; not a historical v1 lockfile or full export. Null means distribution not found.",
+  "packages": {
+    "torch": "2.8.0",
+    "torchvision": "0.23.0",
+    "numpy": "1.26.4",
+    "scipy": "1.11.4",
+    "pandas": "2.3.1",
+    "scikit-learn": "1.7.1",
+    "matplotlib": "3.10.5",
+    "seaborn": "0.13.2",
+    "timm": "0.4.12",
+    "einops": "0.8.1",
+    "PyYAML": "6.0.2",
+    "tqdm": "4.67.1",
+    "omegaconf": "2.3.0",
+    "wandb": "0.21.1",
+    "SimpleITK": null,
+    "vtk": null,
+    "nibabel": null,
+    "pytest": "8.4.1",
+    "packaging": "25.0",
+    "ninja": "1.11.1.4",
+    "mamba-ssm": null,
+    "causal-conv1d": null
+  }
+}

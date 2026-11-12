@@ -1,0 +1,44 @@
+# Local tools and credentials
+.agents/
+.codex/
+.aws/
+.claude/
+.idea/
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+# Python / test caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+# Datasets, model weights and generated arrays (keep source data/ packages)
+dataset/
+datasets/
+external_data/
+processed_data/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.npy
+*.npz
+*.nii
+*.nii.gz
+*.dcm
+# Runtime outputs
+outputs/
+res/
+results*/
+fold_results/
+production_kfold_results/
+multiple_seeds_res/
+parallel_logs*/
+wandb/
+*.log
+active_run.json
+active_runs.json
+active_*.json
+NOTION_LOG_STATE.json
